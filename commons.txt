@@ -1,8 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+PUT CODE BELOW IN <head> TAG
 
     <!-- STYLES -->
     <link rel="stylesheet" href="resets.css" />
@@ -12,9 +8,12 @@
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
     <title>CryptoPlus</title>
-  </head>
-  <body>
-    <nav id="nav-bar">
+
+
+
+PUT CODE BELOW AT TOP OF <body> TAG
+
+<nav id="nav-bar">
       <a href="./index.html">
         <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
       </a>
@@ -32,5 +31,3 @@
         <a href="#" id="contact-us">Contact Us</a>
       </div>
     </nav>
-  </body>
-</html>
