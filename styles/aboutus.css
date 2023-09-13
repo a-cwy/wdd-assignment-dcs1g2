@@ -1,5 +1,39 @@
 @charset "utf-8";
 
+body{
+    background-color: rgb(197, 218, 255);
+}
+
+div > h1{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.para{
+    padding-top: 5px;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    font-size: 25px;
+    
+}
+
+div > h2{
+    padding-left: 10px;
+    padding-bottom: 15px;
+    padding-top: 10px;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+li{
+    padding-left: 40px;
+    padding-right: 10px;
+    font-size: 25px;
+}
+
 .important{
     text-align: center;
     font-weight: bold;
@@ -7,7 +41,9 @@
 }
 
 strong{
-    font-size: 19px;
+    font-size: 30px;
+    text-decoration: underline;
+    font-weight: bold;
 }
 
 
