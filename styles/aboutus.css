@@ -16,7 +16,9 @@ div > h1{
     padding-top: 5px;
     padding-bottom: 15px;
     padding-left: 40px;
+    padding-right: 40px;
     font-size: 25px;
+    line-height: 1.1;
     
 }
 
@@ -30,8 +32,9 @@ div > h2{
 
 li{
     padding-left: 40px;
-    padding-right: 10px;
+    padding-right: 40px;
     font-size: 25px;
+    line-height: 1.1;
 }
 
 .important{
