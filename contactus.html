@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/resets.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/contactus.css" /> <!-- Add a new CSS file for contact styles -->
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <title>CryptoPlus - Contact Us</title>
+</head>
+<body>
+    <nav id="nav-bar">
+        <a href="./index.html">
+          <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
+        </a>
+        <div class="navLinks">
+          <a href="#">Home</a>
+          <a href="#">Cryptocurrencies</a>
+          <a href="#">BlockChain</a>
+          <a href="#">Mining</a>
+          <a href="#">Shop &#9662;</a>
+        </div>
+        <div class="navButton">
+          <a href="aboutus.html" id="about-us">About Us</a>
+        </div>
+        <div class="navButton">
+          <a href="contactus.html" id="contact-us">Contact Us</a>
+        </div>
+    </nav>
+    
+    <div>
+      <h1>Contact Us</h1>
+    </div>
+
+    <div class="container1">
+        <h2>Have questions or feedback?<br/> Feel free to get in touch with us!</h2>
+      
+        <!-- Contact Form -->
+        <form id="contact-form" action="process_contact.php" method="post">
+        <fieldset>
+            <div class="name">
+                <label for="name">Name</label><br/>
+                <input type="text" id="name" name="name" placeholder="Enter your name..." required />
+            </div>
+            <div class="email">
+                <label for="email">Email</label><br/>
+                <input type="email" id="email" name="email" placeholder="Enter your email..." required />
+            </div>
+            <div class="message">
+                <label for="message">Message</label><br/>
+                <textarea id="message" name="message" rows="10" placeholder="Enter your question or feedback..." required></textarea><br/>
+            </div>
+            <div class="submit">
+                <button type="submit">Submit</button>
+            </div>
+        </fieldset>
+        </form>
+    </div>
+
+    <div class="container2">
+      <div class="icon">
+        <a href="#">
+          <img class="icon1" src="./assets/images/gmail.png" alt="" />
+        </a>
+        <p>cryptoplus@gmail.com</p><br/>
+      </div>
+      <div class="icon">
+        <a href="#">
+          <img class="icon1" src="./assets/images/phone.png" alt="" />
+        </a>
+        <p>03-1234 5678</p><br/>
+      </div>
+      <div class="icon">
+        <a href="#">
+          <img class="icon1" src="./assets/images/location.png" alt="" >
+        </a>
+        <p>101 Jalan Ali, 47120 Puchong, Selangor.</p>
+      </div>
+    </div>
+
+    <div class="container3">
+      <a href="#">
+        <img class="icon1" src="./assets/images/instagram.png" alt="" />
+      </a>
+      <a href="#">
+        <img class="icon1" src="./assets/images/facebook.png" alt="" />
+      </a>
+      <a href="#">
+        <img class="icon1" src="./assets/images/whatsapp.png" alt="" />
+      </a>
+      <a href="#">
+        <img class="icon1" src="./assets/images/twitter.png" alt="" />
+      </a>
+    </div>
+    </body>
+</html>

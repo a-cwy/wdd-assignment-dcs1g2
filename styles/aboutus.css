@@ -1,15 +1,16 @@
 @charset "utf-8";
 
-body{
-    background-color: rgb(197, 218, 255);
-}
-
 div > h1{
     padding-left: 10px;
     padding-bottom: 15px;
     padding-top: 10px;
     font-size: 50px;
     font-weight: bold;
+}
+.text{
+    margin-left: 25px;
+    margin-right: 5px;
+    margin-top: 10px;
 }
 
 .para{
@@ -41,6 +42,7 @@ li{
     text-align: center;
     font-weight: bold;
     font-size: 18px;
+    padding-right: 15px;
 }
 
 strong{
