@@ -24,10 +24,10 @@ PUT CODE BELOW AT TOP OF <body> TAG
     <a href="#">Mining</a>
     <a href="#">Shop &#9662;</a>
   </div>
-  <div class="navButton">
-    <a href="#" id="about-us">About Us</a>
-  </div>
-  <div class="navButton">
-    <a href="#" id="contact-us">Contact Us</a>
-  </div>
+  <a href="./aboutus.html" id="about-us">
+    <div class="navButton">About Us</div>
+  </a>
+  <a href="contactus.html" id="contact-us">
+    <div class="navButton">Contact Us</div>
+  </a>
 </nav>

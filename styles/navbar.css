@@ -15,8 +15,7 @@ nav#nav-bar {
 }
 
 nav#nav-bar > img,
-div.navLinks,
-div.navLinks > a {
+div.navLinks {
   display: inline;
   vertical-align: middle;
   text-align: center;
@@ -25,6 +24,7 @@ div.navLinks > a {
 
 div.navLinks a {
   color: rgb(var(--cool-white));
+  text-decoration: none;
 }
 
 div.navLinks > a {
@@ -41,9 +41,6 @@ div.navButton {
   height: 40px;
   border: solid black 1px;
   border-radius: 8px;
-}
-
-div.navButton > a {
   text-decoration: none;
   color: black;
 }
