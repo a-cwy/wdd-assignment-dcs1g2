@@ -1,58 +1,48 @@
 @charset "utf-8";
 
-div > h1{
-    padding-left: 10px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    font-size: 50px;
-    font-weight: bold;
-}
 .text{
-    margin-left: 25px;
-    margin-right: 5px;
-    margin-top: 10px;
+   margin-left: 5%;
+   margin-right: 5%; 
+   margin-top: 10px;
+}
+
+.bigtitle{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+.title{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    padding: 15px;
 }
 
 .para{
-    padding-top: 5px;
-    padding-bottom: 15px;
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 25px;
-    line-height: 1.1;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px;
     
 }
 
-div > h2{
-    padding-left: 10px;
-    padding-bottom: 15px;
-    padding-top: 10px;
-    font-size: 40px;
+strong{
     font-weight: bold;
+    font-size: 20px;
+    text-decoration: underline;
 }
 
 li{
-    padding-left: 40px;
-    padding-right: 40px;
-    font-size: 25px;
-    line-height: 1.1;
+    font-size: 17px;
+    padding-bottom: 10px;
+    line-height: 1.2;
 }
+
 
 .important{
     text-align: center;
     font-weight: bold;
     font-size: 18px;
-    padding-right: 15px;
-}
-
-strong{
-    font-size: 30px;
-    text-decoration: underline;
-    font-weight: bold;
-}
-
-
-
-ul > li{
-    margin-bottom: 12px;
+    line-height: 1.2;
 }
