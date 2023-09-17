@@ -4,6 +4,7 @@ PUT CODE BELOW IN <head> TAG
 <link rel="stylesheet" href="./styles/resets.css" />
 <link rel="stylesheet" href="./styles/commons.css" />
 <link rel="stylesheet" href="./styles/navbar.css" />
+<link rel="stylesheet" href="./styles/footer.css" />
 
 <!-- FAVICON -->
 <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
