@@ -1,0 +1,197 @@
+body::-webkit-scrollbar {
+  display: none;
+}
+
+body {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+section button:hover {
+  cursor: pointer;
+}
+
+/* Welcome SECTION STYLES */
+section#welcome {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: calc(100vh - 80px);
+}
+
+section#welcome img {
+  margin-top: 80px;
+  width: 705px;
+  height: 386px;
+  object-fit: cover;
+}
+
+section#welcome h1 {
+  margin-top: 40px;
+  font-size: 36pt;
+}
+
+section#welcome button {
+  margin-top: 20px;
+  background-color: rgb(var(--gold));
+  border: 1px solid black;
+  border-radius: 8px;
+  width: 130px;
+  height: 40px;
+}
+
+/* What's New SECTION STYLES */
+section#whats-new {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+  background-color: rgb(var(--cool-white));
+}
+
+section#whats-new h2 {
+  margin-top: -24px;
+  font-size: 20pt;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+  padding-left: 24px;
+}
+
+div.whatsNewCardsContainer:first-of-type {
+  margin-bottom: 5%;
+}
+
+div.whatsNewCardsContainer {
+  display: flex;
+  justify-content: space-around;
+}
+
+div.whatsNewCard {
+  object-fit: cover;
+  position: relative;
+  height: 270px;
+  width: 270px;
+}
+
+div.whatsNewCard > img {
+  position: absolute;
+  width: 100%;
+}
+
+div.whatsNewCard > button {
+  position: absolute;
+  width: 130px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 4px;
+  top: 76%;
+  left: 25%;
+}
+
+/* Join our community now SECTION STYLES */
+section#join-community {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+section#join-community h2 {
+  margin-top: -24px;
+  font-size: 20pt;
+  padding-bottom: 16px;
+  box-sizing: border-box;
+  padding-left: 56px;
+}
+
+section#join-community div.wrapper {
+  display: flex;
+  width: 85%;
+  height: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#join-community div.left {
+  width: 66%;
+  height: 100%;
+}
+
+section#join-community div.right {
+  width: 34%;
+  height: 100%;
+}
+
+section#join-community img {
+  padding: 24px;
+  width: 100%;
+  box-sizing: border-box;
+  object-fit: cover;
+}
+
+section#join-community div.left img {
+  height: 100%;
+}
+
+section#join-community div.right img {
+  height: 50%;
+}
+
+section#join-community div.leftArrow,
+section#join-community div.rightArrow {
+  text-decoration: none;
+  color: black;
+  font-size: 128pt;
+  font-weight: bold;
+  position: absolute;
+}
+
+section#join-community div.rightArrow {
+  right: 0px;
+}
+
+/* Ready to get started SECTION STYLES */
+section#get-started {
+  display: flex;
+  align-items: center;
+  background-color: rgb(var(--cool-white));
+  height: calc(100vh - 200px);
+}
+
+section#get-started h2 {
+  font-size: 20pt;
+  box-sizing: border-box;
+}
+
+section#get-started div.wrapper {
+  display: flex;
+  background-image: url("./../assets/images/placeholder.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 50%;
+}
+
+section#get-started div.container {
+  text-align: center;
+  margin: auto auto auto auto;
+  height: fit-content;
+  width: fit-content;
+}
+
+section#get-started div.container h2 {
+  padding-bottom: 20px;
+}
+
+section#get-started div.container p {
+  padding-bottom: 20px;
+}
+
+section#get-started div.container button {
+  width: 130px;
+  height: 40px;
+  border: 1px solid black;
+  border-radius: 8px;
+  background-color: rgb(var(--gold));
+  color: black;
+}

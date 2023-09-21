@@ -4,3 +4,7 @@
   --gold: 229, 210, 131;
   --cool-white: 240, 240, 240;
 }
+
+html {
+  font-family: sans-serif;
+}
