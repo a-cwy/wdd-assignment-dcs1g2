@@ -11,6 +11,15 @@ section button:hover {
   cursor: pointer;
 }
 
+/* SCROLL SNAPPING */
+html {
+  scroll-snap-type: y mandatory;
+}
+
+.snap {
+  scroll-snap-align: start;
+}
+
 /* Welcome SECTION STYLES */
 section#welcome {
   display: flex;
@@ -155,7 +164,7 @@ section#get-started {
   display: flex;
   align-items: center;
   background-color: rgb(var(--cool-white));
-  height: calc(100vh - 200px);
+  height: calc(100vh - 150px);
 }
 
 section#get-started h2 {
@@ -169,7 +178,7 @@ section#get-started div.wrapper {
   background-repeat: no-repeat;
   background-size: 100% 100%;
   width: 100%;
-  height: 50%;
+  height: 75%;
 }
 
 section#get-started div.container {
