@@ -17,7 +17,7 @@
   </head>
   <body>
     <!-- NAV BAR -->
-    <nav id="nav-bar">
+    <nav id="nav-bar" class="snap">
       <a href="./index.html">
         <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
       </a>
@@ -28,12 +28,14 @@
         <a href="#">Mining</a>
         <a href="#">Shop &#9662;</a>
       </div>
-      <a href="./aboutus.html" id="about-us">
-        <div class="navButton">About Us</div>
-      </a>
-      <a href="contactus.html" id="contact-us">
-        <div class="navButton">Contact Us</div>
-      </a>
+      <div class="navButtonWrapper">
+        <a href="./aboutus.html" id="about-us">
+          <div class="navButton">About Us</div>
+        </a>
+        <a href="contactus.html" id="contact-us">
+          <div class="navButton">Contact Us</div>
+        </a>
+      </div>
     </nav>
 
     <!-- LANDING SECTION -->
@@ -44,7 +46,7 @@
     </section>
 
     <!-- What's New? SECTION -->
-    <section id="whats-new">
+    <section id="whats-new" class="snap">
       <h2>What's New?</h2>
 
       <div class="whatsNewCardsContainer">
@@ -83,7 +85,7 @@
     </section>
 
     <!-- Join our community now SECTION -->
-    <section id="join-community">
+    <section id="join-community" class="snap">
       <h2>Join our community now</h2>
       <div class="wrapper">
         <div class="left">
@@ -101,7 +103,7 @@
     </section>
 
     <!-- Ready to get started? SECTION -->
-    <section id="get-started">
+    <section id="get-started" class="snap">
       <div class="wrapper">
         <div class="container">
           <h2>Ready to get started?</h2>
@@ -109,13 +111,62 @@
             Learn more about how CryptoPlus can help you drive<br />
             business innovation and impact.
           </p>
-          <button onclick="window.location.href='./contactus.html'">
-            Contact Us
-          </button>
+          <button onclick="location.href='./contactus.html'">Contact Us</button>
         </div>
       </div>
     </section>
   </body>
 
-  <footer>FOOTER!!</footer>
+  <footer>
+    <div id="socials">
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/instagram.png"
+          alt="Instagram"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/facebook.png"
+          alt="Facebook"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/whatsapp.png"
+          alt="WhatsApp"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/twitter.png"
+          alt="Twitter"
+        />
+      </a>
+    </div>
+    <div id="contact-info">
+      <div class="footerContact">
+        <a href="mailto:support@cryptoplus.com">
+          <img src="./assets/images/gmail.png" alt="Email" />
+          <p>support@cryptoplus.com</p>
+        </a>
+      </div>
+      <div class="footerContact">
+        <a href="tel:+600312345678">
+          <img src="./assets/images/phone.png" alt="Phone" />
+          <p>+60 03-1234 5678</p>
+        </a>
+      </div>
+      <div class="footerContact">
+        <a>
+          <img src="./assets/images/location.png" alt="Address" />
+          <p>101 Jalan Ali, 47120 Puchong, Selangor.</p>
+        </a>
+      </div>
+    </div>
+  </footer>
 </html>
