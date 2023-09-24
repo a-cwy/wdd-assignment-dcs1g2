@@ -1,0 +1,93 @@
+/* Title SECTION STYLES */
+.title{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+}
+
+.subtitle{
+    font-size: 18px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+/* Sign Up SECTION STYLES*/
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    width: 450px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 45px;
+    backdrop-filter: blur(20px);
+}
+
+.input {
+    border: 1px solid black;
+    width: 430px;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.button {
+    border: 1px solid black;
+    width: 453px;
+    height: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 45px;
+    border-radius: 45px;
+    background-color: white;
+}
+
+.button:active {
+    background-color: rgb(79, 112, 156);
+}
+
+.forgot {
+    color: black;
+    margin-top: 20px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.register {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    width: 330px;
+    padding: 10px;
+    border: 1px solid black;
+    background-color: white;
+}
+
+.registerLink,
+.forgotPassword {
+    color: rgb(120, 67, 199);
+    text-decoration: none;
+}
+
+.registerLink:hover,
+.forgotPassword:hover {
+    text-decoration: underline;
+}
+
