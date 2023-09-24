@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+        <!-- STYLES -->
+        <link rel="stylesheet" href="./styles/resets.css" />
+        <link rel="stylesheet" href="./styles/commons.css" />
+        <link rel="stylesheet" href="./styles/navbar.css" />
+        <link rel="stylesheet" href="./styles/footer.css" />
+        <link rel="stylesheet" href="./styles/index.css" />
+        <link rel="stylesheet" href="./styles/signinPage.css"> <!-- Add a new css file for signinPage-->
+    
+        <!-- FAVICON -->
+        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+        <title>CryptoPlus</title>
+
+        <script src="test.js"></script> <!-- Add a new javascript file for signinPage-->
+    </head>
+    <body>
+        <!-- NAV BAR -->
+        <nav id="nav-bar">
+          <a href="./index.html">
+            <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
+          </a>
+          <div class="navLinks">
+            <a href="#">Home</a>
+            <a href="#">Cryptocurrencies</a>
+            <a href="#">BlockChain</a>
+            <a href="#">Mining</a>
+            <a href="#">Shop &#9662;</a>
+          </div>
+          <a href="./aboutus.html" id="about-us">
+            <div class="navButton">About Us</div>
+          </a>
+          <a href="contactus.html" id="contact-us">
+            <div class="navButton">Contact Us</div>
+          </a>
+        </nav>
+      <!-- Login Form -->
+        <div class="login">
+          <form action="./aboutus.html" id="loginForm">
+            <h1 class="title">Login</h1>
+            <h2 class="subtitle">Sign in to your account</h2>
+        
+            <input class="input" type="text" placeholder="Username" required/><br>
+            <input class="input" type="password" placeholder="Password" required/><br>
+        
+            <button type="submit" class="button">Log In</button>
+            
+            <div class="forgot">
+              <a href="./forgetPW.html" class="forgotPassword">I forgot my password. Click here to reset</a><br><br>
+            </div>
+        
+            <div class="register">
+              <p>New Account? <a href="./signupPage.html" class="registerLink ">Register New Account</a></p>
+            </div>
+
+          </form>
+        </div>
+        
+    </body>
+
+</html>
