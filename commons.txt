@@ -29,7 +29,7 @@ PUT CODE BELOW AT TOP OF <body> TAG
     <a href="./aboutus.html" id="about-us">
       <div class="navButton">About Us</div>
     </a>
-    <a href="contactus.html" id="contact-us">
+    <a href="./contactus.html" id="contact-us">
       <div class="navButton">Contact Us</div>
     </a>
   </div>
@@ -40,7 +40,7 @@ PUT CODE BELOW AT TOP OF <body> TAG
 
 PUT CODE BELOW AFTER <body> TAG
 
-footer>
+<footer>
   <div id="socials">
     <a href="#">
       <img class="footerIcon" src="./assets/images/instagram.png" alt="Instagram" />
