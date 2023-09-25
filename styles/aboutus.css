@@ -1,9 +1,19 @@
 @charset "utf-8";
 
-.text{
+div.container{
    margin-left: 5%;
    margin-right: 5%; 
    margin-top: 10px;
+}
+
+div.cont-imp{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div.cont-ol{
+    padding-left: 30px;
+    padding-right: 20px;
 }
 
 .bigtitle{
@@ -14,35 +24,110 @@
 }
 
 .title{
-    font-size: 28px;
+    font-size: 30px;
     font-weight: bold;
     text-align: center;
     padding: 15px;
 }
 
-.para{
+p.para{
     font-size: 17px;
     text-align: center;
-    padding: 10px;
-    
+    padding: 10px;  
 }
 
-strong{
+p.tnc{
+    font-size: 18px;
+    padding: 10px;
+}
+
+p.important{
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 1.2;
+    padding-bottom: 10px;
+}
+
+strong.subtitle{
     font-weight: bold;
     font-size: 20px;
     text-decoration: underline;
 }
 
-li{
+strong.tnc{
+    font-weight: bold;
+}
+
+ol{
+    list-style-type: decimal;
+}
+
+ol > li{
     font-size: 17px;
     padding-bottom: 10px;
     line-height: 1.2;
 }
 
 
-.important{
-    text-align: center;
+
+
+h3{
     font-weight: bold;
+    font-size: 23px;
+    text-decoration: underline;
+    padding-bottom: 10px;
+}
+
+p.content{
+    font-size: 17px;
+}
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+.grid-item1{
+    grid-column: span 2;
+}
+
+.grid-item1 , .grid-item2{
+    border: solid;
+    border-radius: 10px;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: rgb(var(--gold));
+}
+
+p.achievements{
     font-size: 18px;
-    line-height: 1.2;
+}
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-bottom: 10px;
+}
+
+.grid-item4{
+    grid-column: span 2;
+}
+
+.grid-item3 , .grid-item4{
+    border: solid;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(var(--gold));
 }
