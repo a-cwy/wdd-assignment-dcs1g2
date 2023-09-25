@@ -7,6 +7,10 @@ footer {
   height: 150px;
 }
 
+#socials > a {
+  text-decoration: none;
+}
+
 .footerIcon {
   margin: 16px;
 }

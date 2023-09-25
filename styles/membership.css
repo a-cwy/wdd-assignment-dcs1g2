@@ -1,0 +1,79 @@
+section.membershipPricing .title {
+  padding: 32px;
+  box-sizing: border-box;
+}
+
+section.membershipPricing .title h1 {
+  text-align: center;
+  font-size: 32pt;
+}
+
+section.membershipPricing .title h2 {
+  text-align: center;
+  font-size: 16pt;
+  margin-top: 8px;
+}
+
+/* PANELS STYLE */
+div.panelsWrapper {
+  display: grid;
+  grid-template-columns: 4fr 5fr 4fr;
+  column-gap: 48px;
+  margin: 0px 64px 32px;
+}
+
+div.pricePanel {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(var(--cool-white));
+  border-radius: 12px;
+  padding: 12px;
+  box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
+}
+
+div.panelsWrapper > div.pricePanel:first-of-type,
+div.panelsWrapper > div.pricePanel:last-of-type {
+  margin: 12px 0px;
+}
+
+h2.planName {
+  font-size: 24pt;
+  text-align: center;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+div.description {
+  padding: 4px;
+  text-align: center;
+}
+
+div.benefits {
+  margin-top: 24px;
+  padding-left: 16px;
+}
+
+div.benefits li::before {
+  margin-right: 8px;
+}
+
+div.benefits ul.included li::before {
+  content: "\2713";
+  color: green;
+}
+
+div.benefits ul.excluded li::before {
+  content: "\2A2F";
+  color: red;
+}
+
+button.subscribeButton {
+  margin-top: 32px;
+  width: 140px;
+  height: 32px;
+  background-color: rgb(var(--gold));
+  border: solid 1px black;
+  border-radius: 4px;
+  text-align: center;
+  align-self: center;
+}
