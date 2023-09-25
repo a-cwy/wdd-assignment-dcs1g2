@@ -7,6 +7,7 @@ nav#nav-bar {
   box-sizing: border-box;
   padding-left: 48px;
   padding-right: 48px;
+  overflow: hidden;
 }
 
 #nav-logo {
@@ -25,7 +26,11 @@ div.navLinks {
   margin-left: 48px;
 }
 
-div.navLinks > a {
+div.navLinks > * {
+  display: inline;
+}
+
+div.navLinks * {
   color: rgb(var(--cool-white));
   text-decoration: none;
   margin: 6px;
