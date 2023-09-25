@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/blockchainexplanation.css">
+    <link rel="stylesheet" href="./styles/resets.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+<title>CryptoPlus</title>
+</head>
+<body>
+    <nav id="nav-bar">
+        <a href="./index.html">
+          <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
+        </a>
+        <div class="navLinks">
+          <a href="#">Home</a>
+          <a href="#">Cryptocurrencies</a>
+          <a href="#">BlockChain</a>
+          <a href="#">Mining</a>
+          <a href="#">Shop &#9662;</a>
+        </div>
+        <div class="navButton">
+          <a href="#" id="about-us">About Us</a>
+        </div>
+        <div class="navButton">
+          <a href="#" id="contact-us">Contact Us</a>
+        </div>
+      </nav>
+
+      <div class="container">
+        <article>
+         
+       <div class="line1">
+           <h1>What is Blockchain?</h1>
+            <span>Blockchain is a shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a business<br> <span> network. </span></span>
+        </div>
+ <div id="container-table">  
+  <div >    
+<table id="content-one">
+  <th ><h2>Key Element of a Blockchain:</h2></th>
+  <tr>
+    <td><strong>1.Blocks:</strong></td>
+    <tr><td>Transactions are grouped into blocks,<br> which are linked togetherin chronological order.<br>Each block contains a set of transactions <br> and a reference to the previous block (called a hash).</td></tr>
+    <tr><td><strong>2.Decentralization:</strong></td><tr><td>There's no central authority governing the<br> blockchain Instead, it relies on consensus  <br>algorithms to validate and record transactions.</td></tr></tr>
+    <tr><td><strong>3.Security:</strong></td></tr><tr><td>Cryptography is used to secure transactions and <br> control access.Once a transaction is added to the <br> blockchain,it becomes virtually immutable.</td></tr>
+    <tr><td><strong>4.Transparency:</strong></td></tr><tr><td>The entire transaction history is visible to anyone <br> on the network, ensuring trust and transparency.</td></tr>
+  </tr>
+</table>
+</div> 
+<div>
+<table>
+  <th><h3>Practical Applications of Blockchain:</h3></th>
+  <tr>
+    <td><strong>1.Cryptocurrencies:</strong></td>
+    <tr><td>The most famous application, cryptocurrencies <br> like Bitcoin and Ethereum use blockchain to enable <br> secure,decentralized digital payments.</td></tr>
+    <tr><td><strong>2.Supply Chain Management:</strong></td></tr><tr><td>Blockchain allows tracking and tracing of <br>goods  from production to delivery, reducing fraud,<br>ensuring product authenticity, and enhancing transparency.</td></tr>
+    <tr><td><strong>3.Smart Contracts:</strong></td></tr><tr><td>Self-executing contracts with predefined rules, <br>smart contracts automate processes, reducing the <br> need for intermediaries in legal and financial agreements.</td></tr>
+    <tr><td><strong>4.Voting Systems:</strong></td></tr><tr><td>Blockchain-based voting systems can enhance electoral <br>transparency, reduce fraud, and increase trust in democratic processes.</td></tr>
+    <tr><td><strong>5.Healthcare:</strong></td></tr><tr><td>Medical records stored on a blockchain ensure<br>  data integrity,enable secure sharing among healthcare <br> providers, and  protect patient privacy.</td></tr>
+    <tr><td><strong>6.Real Estate:</strong></td></tr><tr><td>Blockchain simplifies property transactions by securely <br> recording and transferring titles,reducing fraud and paperwork.</td></tr>
+  </tr>
+</table>
+</div>
+</div> 
+  
+    
+        <div class="line4">
+            <h4>Conclusion</h4>
+            <span>Blockchain technology is reshaping industries and redefining how transactions and data are managed.
+               Its decentralized,<br><span> secure, and transparent nature makes it a powerful tool with applications across various sectors,
+                promising a more efficient <br><span>and trustworthy future for modern society.
+               As the technology continues to evolve,its potential for innovation remains boundless.
+            </span></span></span>
+        </div>
+       
+    </article>
+      </div>
+</body>
+</html>
