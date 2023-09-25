@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/resets.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/mining.css" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <title>CryptoPlus</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav id="nav-bar" class="snap">
+      <a href="./index.html">
+        <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
+      </a>
+      <div class="navLinks">
+        <a href="./index.html">Home</a>
+        <a href="#">Cryptocurrencies</a>
+        <a href="#">BlockChain</a>
+        <a href="./mining.html">Mining</a>
+        <a href="#">Shop</a>
+        <a href="./membership.html">Member</a>
+      </div>
+      <div class="navButtonWrapper">
+        <a href="./aboutus.html" id="about-us">
+          <div class="navButton">About Us</div>
+        </a>
+        <a href="./contactus.html" id="contact-us">
+          <div class="navButton">Contact Us</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- MINING EXPLANATION -->
+    <section class="mining">
+      <h1>Cryptocurrency Mining</h1>
+
+      <div class="miningExplanation">
+        <h2>What is crypto mining?</h2>
+        <div>
+          <p>
+            Cryptocurrency mining is a computationally complex process where
+            cryptocurrency transactions are validated. As a reward for
+            validating the transaction, the valdiator is given a sum of
+            cryptocurrency based on the transaction that was validated. People
+            who are involved in this process of cryptocurency mining are known
+            as miners.
+          </p>
+          <p>
+            Whenever new transactions are made, they have to be validated. Just
+            as a bank will undergo a long and secure process of making sure that
+            money transactions are valid, the blockchain will perform a process
+            of finding a valid hash key for each transaction, validating it in
+            the process. However, unlike a bank where validation is done by the
+            authorities, transaction validation is done by the public in the
+            blockchain. Miners will use hardware and machinery that can perform
+            calculations at lightning speed such graphical processing units and
+            special made calculation processors to compute valid hash keys for
+            each transaction. The speed of said hardware is key to mining
+            cryptocurrency as only the first person to succesfully validate a
+            transaction is rewarded with cryptocurrency.
+          </p>
+        </div>
+      </div>
+
+      <img class="image1" src="./assets/images/pickaxe.jpg" alt="Pickaxe" />
+
+      <h2 class="subHead">Wait, whats a <span>Blockchain?</span></h2>
+
+      <div class="blockchainExplanation">
+        <p>
+          The blockchain is essentially a chain of legders in which transactions
+          are recorded and broadcasted into the public domain. This ledger can
+          be accessed and appended to by anyone, but every edit is required to
+          be validated before it can be added to the blockchain. This
+          validation, is in essence what cryptocurency mining is.
+        </p>
+        <p>
+          Whenever a new ledger is created, it needs to be appended to the
+          blockchain along with a hashing function that is appropriate for the
+          said ledger for the ledger to be valid. Unfortunately, there aren't
+          many efficient methods to find the hashing function for a given
+          ledger, so many people opt to brute force their way into finding the
+          correct hashing function. This is done by generating multiple hashing
+          funtions in rapid succession, such as with the use of specially made
+          computing processors or GPUs, and testing the hashing functions on the
+          ledger to see if they are valid hashing functions. If one is found,
+          the ledger is then appended to the blockchain with its hashing
+          function, validating the ledger and all the transactions listed
+          within.
+        </p>
+      </div>
+
+      <img
+        class="image2"
+        src="./assets/images/blockchain.jpg"
+        alt="Blockchain"
+      />
+
+      <a class="shopLink" href="#">
+        <h2>Interested in mining?<br />Click here to check out our shop!</h2>
+      </a>
+    </section>
+  </body>
+
+  <footer>
+    <div id="socials">
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/instagram.png"
+          alt="Instagram"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/facebook.png"
+          alt="Facebook"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/whatsapp.png"
+          alt="WhatsApp"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/twitter.png"
+          alt="Twitter"
+        />
+      </a>
+    </div>
+    <div id="contact-info">
+      <div class="footerContact">
+        <a href="mailto:support@cryptoplus.com">
+          <img src="./assets/images/gmail.png" alt="Email" />
+          <p>support@cryptoplus.com</p>
+        </a>
+      </div>
+      <div class="footerContact">
+        <a href="tel:+600312345678">
+          <img src="./assets/images/phone.png" alt="Phone" />
+          <p>+60 03-1234 5678</p>
+        </a>
+      </div>
+      <div class="footerContact">
+        <a>
+          <img src="./assets/images/location.png" alt="Address" />
+          <p>101 Jalan Ali, 47120 Puchong, Selangor.</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+</html>

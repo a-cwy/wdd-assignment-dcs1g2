@@ -1,0 +1,102 @@
+section.mining {
+  width: 80%;
+  margin: 0px auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 128px auto;
+  grid-template-areas:
+    "header header header"
+    "image1 content1 content1"
+    "subhead subhead subhead"
+    "content2 content2 image2"
+    "shop shop shop";
+  gap: 8px;
+}
+
+section.mining h1 {
+  grid-area: header;
+  text-align: center;
+  line-height: 128px;
+  font-size: 32pt;
+}
+
+div.miningExplanation {
+  margin: auto;
+  grid-area: content1;
+}
+
+div.miningExplanation h2 {
+  text-align: right;
+  font-size: 24pt;
+}
+
+div.miningExplanation p {
+  padding-left: 16px;
+  padding-top: 12px;
+  text-align: justify;
+}
+
+img.image1 {
+  grid-area: image1;
+  width: 100%;
+  margin: auto;
+}
+
+h2.subHead {
+  background-color: rgb(var(--cool-white));
+  padding: 64px;
+  grid-area: subhead;
+  font-size: 24pt;
+  text-align: center;
+}
+
+@keyframes pulse {
+  0% {
+    filter: blur(0.5px);
+  }
+  100% {
+    filter: blur(2px);
+  }
+}
+
+h2.subHead span {
+  animation-name: pulse;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+div.blockchainExplanation {
+  margin: auto;
+  grid-area: content2;
+}
+
+div.blockchainExplanation p {
+  padding-left: 16px;
+  padding-top: 12px;
+  text-align: justify;
+}
+
+img.image2 {
+  grid-area: image2;
+  width: 100%;
+  margin: auto;
+}
+
+a.shopLink {
+  grid-area: shop;
+  background-color: rgb(var(--gold));
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 24pt;
+  color: black;
+  padding: 64px;
+  text-align: center;
+  transition: all 0.2s linear;
+}
+
+a.shopLink:hover {
+  background-color: rgba(var(--gold), 0.5);
+  border-radius: 24px;
+}
