@@ -45,6 +45,7 @@ button.itemCardButton {
 h2.itemName {
   font-size: 16pt;
   text-align: center;
+  margin-top: 24px;
   margin-bottom: 0px;
 }
 
