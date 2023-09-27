@@ -1,0 +1,249 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family:'Poppins',sans-serif ;
+ }
+ 
+ :root {
+     --dark-blue: 33, 53, 85;
+     --light-blue: 79, 112, 156;
+     --gold: 229, 210, 131;
+     --cool-white: 240, 240, 240;
+   }
+ 
+   body{
+     background:rgb(var(--cool-white));
+     justify-content: center;
+     align-items: center;
+     width:1024px;
+     height:768px;
+     margin-left: auto;
+     margin-right: auto;
+   }
+     
+   
+
+ 
+ h1{
+     vertical-align: middle;
+     text-align: center;
+     margin-top: 20px;
+     font-size: 40px;
+ }
+ div.container{
+     border: 3px solid #221831;
+     margin-left: auto;
+     margin-right: auto;
+     width:75%;
+     justify-content: center;
+     height: 480px;
+     margin-top:70px;
+     backdrop-filter: blur(10);
+     background-color:#D3D7E7;
+     
+ }
+ 
+ div.box-nameofcard{
+ margin-left:40px;
+ margin-top: 10px;
+ }
+ 
+ #nameofcard{
+ width:480px;    
+ display:table;
+ height:40px;
+ text-indent: 15px;
+ transition: .5s;
+ font-weight: bold;
+ border: 2px solid #221831;
+ }
+ 
+ div.box-cw{
+ float:right;
+ margin-top:-78px;
+ margin-right:45px;
+ 
+ }
+ #cw{
+     height:40px;
+     transition:.5s;
+     text-indent: 15px;
+     font-weight: bold;
+     border: 2px solid #221831;
+ }
+ div.box-cardnumber{
+     float:left;
+     margin-left: 40px;
+ }
+ 
+ 
+ #cardnumber{
+     width: 680px;
+     height:40px;
+     transition:.5s;
+     text-indent: 15px;
+     font-weight: bold;
+     border: 2px solid #221831;
+ }
+ 
+ div.box-expiry{
+     float:left;
+     margin-left: 40px;
+     margin-top: 20px;
+ }
+ #expiry{
+     width: 300px;
+     height: 40px;
+     text-indent: 10px;
+     font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     text-transform: uppercase;
+     transition:.5s;
+     text-indent: 15px;
+     color:#221831;
+     border: 2px solid #221831;
+ }
+ 
+ 
+ a{
+     text-decoration:none;
+     color:black;
+     transition:.5s;
+ }
+ button{
+   padding:3px; 
+   margin-left:10px; 
+ }
+ button.visa{
+     width:50px;
+     margin-top:6px;
+    background-color:#F7F2EF ;
+ }
+ button.paypal{
+     width:50px;
+     margin-top:6px;
+     background-color:#F7F2EF ;
+ }
+ button.card{
+     width:50px;
+     margin-top:6px;
+     background-color:#F7F2EF;
+     
+ }
+ 
+ div.box-button > p{
+     margin-top:5px;
+     margin-left:5px;
+ }
+ div.box-button{
+  margin-right:80px;
+  width:280px;
+  height:80px;
+ margin-top: 30px;
+  float:right;
+  border:2px solid #221831;
+  transition:.5s;
+  background-color:white;
+  display: block;
+ }
+ 
+ 
+ 
+ input#pay:active{
+     background-color:#3D3D42 ; 
+     transition:0.5s;
+ }
+ 
+ div.button-pay{
+ float:right;
+ align-items: center;
+ margin-top:50px;
+ }
+ 
+ input#pay{
+     outline:none;
+     margin-left: 140px;
+     display:block;
+     margin-right:60px;
+     width: 300px;
+     height: 50px;
+     text-align: center;
+     color:#DFE0E5;
+     background-color:#62698F;
+     border: 2px solid #221831;
+     font-size: 18px;
+     font-weight: bold;
+     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+     
+ }
+ 
+ div.box-button button:focus
+ {
+     outline-color:#2EA1DA;
+     outline-style:solid;
+     transition:0.1s;
+     background-image: url(/ZhiHeng.HTML\ Assignment/assets/images/check.png);
+     background-repeat: no-repeat;
+     background-position:right top;
+     background-size:10px;
+     
+ }
+ 
+ input#nameofcard:focus:invalid,
+ input#cw:focus:invalid,
+ input#cardnumber:focus:invalid
+ {
+    background:url(/ZhiHeng.HTML\ Assignment/assets/images/wrong.png)right/contain no-repeat;
+    border:4px #D1114D solid;
+    transition:1s;
+ }
+ input#nameofcard:focus:valid,
+ input#cw:focus:valid,
+ input#cardnumber:focus:valid,
+ input#expiry:focus:valid{
+     background:url(/ZhiHeng.HTML\ Assignment/assets/images/correct.png)right/contain no-repeat;
+     border: 4px solid #8CE5A4;
+     transition:1s;
+ }
+ input#expiry:focus:invalid{
+    background:url(/ZhiHeng.HTML\ Assignment/assets/images/wrong.png)center /contain no-repeat;
+    border:4px #D1114D solid;
+    transition:1s;
+   
+ }
+ input#expiry:focus:valid{
+     background:url(/ZhiHeng.HTML\ Assignment/assets/images/correct.png)center /contain no-repeat;
+     border: 4px solid #8CE5A4;
+     transition:1s;
+ }
+ span{
+     text-transform: capitalize;
+     font-weight: bold;
+     padding:10px 10px;
+     
+ }
+ p,label{
+     text-transform: capitalize;
+     font-weight: bold;
+     
+ }
+ 
+ /*button#pay{
+     outline:none;
+     margin-left: 140px;
+     display:block;
+     margin-right:60px;
+     width: 300px;
+     height: 50px;
+     text-align: center;
+     color:#DFE0E5;
+     background-color:#62698F;
+     border: 2px solid #221831;
+    
+ }
+ button#pay:active{
+ background-color:#3D3D42 ; 
+ transition:0.3s;
+ 
+ }*/
