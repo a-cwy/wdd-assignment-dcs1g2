@@ -123,7 +123,7 @@ div.box-event1 {
   height: 280px;
   text-align: center;
   transition: 1s;
-  background-image: url(/PICTURE/learning-crypto-trading-poster-template_23-2149098014.jpg);
+  background-image: url(/PICTURE/event1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 280px;
@@ -139,7 +139,7 @@ div.box-event2 {
   height: 280px;
   text-align: center;
   transition: 1s;
-  background-image: url(/PICTURE/158.png.jpg);
+  background-image: url(/PICTURE/event2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 280px;
@@ -154,7 +154,7 @@ div.box-event2 {
   height: 280px;
   transition: 1s;
   text-align: center;
-  background-image: url(/PICTURE/145.png);
+  background-image: url(/PICTURE/event3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 280px;
