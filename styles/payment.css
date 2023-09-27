@@ -183,7 +183,7 @@
      outline-color:#2EA1DA;
      outline-style:solid;
      transition:0.1s;
-     background-image: url(/ZhiHeng.HTML\ Assignment/assets/images/check.png);
+     background-image: url(/assets/images/check.png);
      background-repeat: no-repeat;
      background-position:right top;
      background-size:10px;
@@ -194,7 +194,7 @@
  input#cw:focus:invalid,
  input#cardnumber:focus:invalid
  {
-    background:url(/ZhiHeng.HTML\ Assignment/assets/images/wrong.png)right/contain no-repeat;
+    background:url(/assets/images/wrong.png)right/contain no-repeat;
     border:4px #D1114D solid;
     transition:1s;
  }
@@ -202,12 +202,12 @@
  input#cw:focus:valid,
  input#cardnumber:focus:valid,
  input#expiry:focus:valid{
-     background:url(/ZhiHeng.HTML\ Assignment/assets/images/correct.png)right/contain no-repeat;
+     background:url(/assets/images/correct.png)right/contain no-repeat;
      border: 4px solid #8CE5A4;
      transition:1s;
  }
  input#expiry:focus:invalid{
-    background:url(/ZhiHeng.HTML\ Assignment/assets/images/wrong.png)center /contain no-repeat;
+    background:url(/assets/images/wrong.png)center /contain no-repeat;
     border:4px #D1114D solid;
     transition:1s;
    
