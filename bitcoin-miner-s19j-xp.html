@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/commons.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
-    <link rel="stylesheet" href="./styles/shop.css" />
+    <link rel="stylesheet" href="./styles/mining-rig-item.css" />
 
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
@@ -41,86 +41,79 @@
     </nav>
 
     <!-- MAIN CONTENT AREA -->
-    <section class="shopArea">
-      <div class="itemCard">
-        <div class="itemImageContainer">
-          <img
-            src="./assets/images/dash-miner-d9/product1.jpg"
-            alt="Dash Miner D9"
-          />
-        </div>
-        <div class="itemInfo">
-          <h2 class="itemName">Dash Miner D9</h2>
-          <div class="itemPrice">$4599</div>
-          <button
-            class="itemCardButton"
-            onclick="location.href='./dash-miner-d9.html'"
-          >
-            &#187;
-          </button>
-          <button class="itemCardButton">&plus;</button>
-        </div>
+    <!-- ITEM DISPLAY SECTION -->
+    <section class="itemDisplay">
+      <div class="itemImageWindow">
+        <img
+          src="./assets/images/bitcoin-miner-s19j-xp/product1.jpg"
+          alt="Bitcoin Miner S19j XP"
+        />
       </div>
-      <div class="itemCard">
-        <div class="itemImageContainer">
-          <img
-            src="./assets/images/bitcoin-miner-s19k-pro/product1.jpg"
-            alt="Bitcoin Miner S19k Pro"
-          />
-        </div>
-        <div class="itemInfo">
-          <h2 class="itemName">Bitcoin Miner S19k Pro</h2>
-          <div class="itemPrice">$2520</div>
-          <button
-            class="itemCardButton"
-            onclick="location.href='./bitcoin-miner-s19k-pro.html'"
-          >
-            &#187;
-          </button>
-          <button class="itemCardButton">&plus;</button>
-        </div>
-      </div>
-      <div class="itemCard">
-        <div class="itemImageContainer">
-          <img
-            src="./assets/images/ckb-miner-k7/product1.png"
-            alt="CKB Miner K7"
-          />
-        </div>
-        <div class="itemInfo">
-          <h2 class="itemName">CKB Miner K7</h2>
-          <div class="itemPrice">$2900</div>
-          <button
-            class="itemCardButton"
-            onclick="location.href='./ckb-miner-k7.html'"
-          >
-            &#187;
-          </button>
-          <button class="itemCardButton">&plus;</button>
-        </div>
-      </div>
-      <div class="itemCard">
-        <div class="itemImageContainer">
-          <img
-            src="./assets/images/bitcoin-miner-s19j-xp/product1.jpg"
-            alt="Bitcoin Miner S19j XP"
-          />
-        </div>
-        <div class="itemInfo">
-          <h2 class="itemName">Bitcoin Miner S19j XP</h2>
-          <div class="itemPrice">$4983</div>
-          <button
-            class="itemCardButton"
-            onclick="location.href='./bitcoin-miner-s19j-xp.html'"
-          >
-            &#187;
-          </button>
-          <button class="itemCardButton">&plus;</button>
-        </div>
+      <div class="itemDetailsContainer">
+        <h2 id="name">Bitcoin Miner S19j XP</h2>
+        <h2 id="price">$4983</h2>
+        <button id="back" onclick="location.href='./shop.html'">Back</button>
       </div>
     </section>
-  </body>
 
+    <!-- ITEM SPECS SECTION -->
+    <section class="itemSpecifications">
+      <table>
+        <caption>
+          Product Specifications
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="2">Detailed Specifications</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- POWER SUPPLY INFO -->
+          <tr>
+            <th colspan="2">Power Supply</th>
+          </tr>
+          <tr>
+            <td>AC Input Voltage, Volt</td>
+            <td>220 ~ 277</td>
+          </tr>
+          <tr>
+            <td>AC Input Current, Amp</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>AC Input Frequency, Hz</td>
+            <td>47 ~ 63</td>
+          </tr>
+
+          <!-- HARDWARE CONFIG -->
+          <tr>
+            <th colspan="2">Hardware Configuration</th>
+          </tr>
+          <tr>
+            <td>Networking Mode</td>
+            <td>RJ45 Ethernet 10/100M</td>
+          </tr>
+          <tr>
+            <td>Size, L*W*H, mm</td>
+            <td>430 * 195 * 290</td>
+          </tr>
+          <tr>
+            <td>Net Weight, kg</td>
+            <td>14.9</td>
+          </tr>
+
+          <!-- ENVIRONMENT REQ -->
+          <tr>
+            <th colspan="2">Environment Requirements</th>
+          </tr>
+          <tr>
+            <td>Operation Temperature, &deg;C</td>
+            <td>0 ~ 40</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
   <footer>
     <div id="socials">
       <a href="#">
