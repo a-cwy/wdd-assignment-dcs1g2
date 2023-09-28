@@ -1,9 +1,5 @@
 body {
   background: rgb(var(--cool-white));
-  width: 1024px;
-  height: 768px;
-  margin-left: auto;
-  margin-right: auto;
 }
 :root {
   --dark-blue: 33, 53, 85;
