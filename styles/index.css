@@ -19,11 +19,17 @@ section#welcome {
   height: calc(100vh - 80px);
 }
 
-section#welcome img {
+section#welcome video {
   margin-top: 80px;
   width: 705px;
   height: 386px;
   object-fit: cover;
+}
+
+section#welcome a {
+  text-decoration: none;
+  font-size: 8pt;
+  color: rgb(150, 150, 150);
 }
 
 section#welcome h1 {
@@ -135,15 +141,6 @@ section#join-community div.left img {
 
 section#join-community div.right img {
   height: 50%;
-}
-
-section#join-community div.leftArrow,
-section#join-community div.rightArrow {
-  text-decoration: none;
-  color: black;
-  font-size: 128pt;
-  font-weight: bold;
-  position: absolute;
 }
 
 section#join-community div.rightArrow {
