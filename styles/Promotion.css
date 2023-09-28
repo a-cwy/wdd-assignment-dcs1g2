@@ -1,73 +1,20 @@
-* {
-  margin: 0%;
-  padding: 0%;
-  box-sizing: border-box;
-  font-size: "Poppins", sans-serif;
+body {
+  background: rgb(var(--cool-white));
+  width: 1024px;
+  height: 768px;
+  margin-left: auto;
+  margin-right: auto;
 }
-
 :root {
   --dark-blue: 33, 53, 85;
   --light-blue: 79, 112, 156;
   --gold: 229, 210, 131;
   --cool-white: 240, 240, 240;
 }
-
-body {
-  background: rgb(var(--cool-white));
-  width: 1024px;
-  height: 768px;
-  margin-right: auto;
-  margin-left: auto;
-}
-
-nav#nav-bar {
-  display: flex;
-  align-items: center;
-  justify-content: space-around;
-  background-color: rgb(var(--dark-blue));
-  height: 80px;
-  padding: 16px;
+* {
+  margin: 0px;
+  padding: 0px;
   box-sizing: border-box;
-
-  font-family: sans-serif;
-}
-
-#nav-logo {
-  height: 55px;
-}
-
-nav#nav-bar > img,
-div.navLinks,
-div.navLinks > a {
-  display: inline;
-  vertical-align: middle;
-  text-align: center;
-  text-decoration: none;
-}
-
-div.navLinks a {
-  color: rgb(var(--cool-white));
-}
-
-div.navLinks > a {
-  margin: 12px;
-}
-
-div.navButton {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  text-align: center;
-  background-color: rgb(var(--gold));
-  width: 130px;
-  height: 40px;
-  border: solid black 1px;
-  border-radius: 8px;
-}
-
-div.navButton > a {
-  text-decoration: none;
-  color: black;
 }
 section {
   display: flex;
@@ -75,20 +22,19 @@ section {
   justify-content: center;
 }
 div.container {
-  margin-top: 20px;
-  width: 1500px;
-  height: 600px;
+  width: 1020px;
+  height: 620px;
   margin-left: auto;
   margin-right: auto;
   background-color: #e1ddd2;
   display: flex;
   justify-content: center;
   align-items: center;
+  border: solid 2px black;
 }
-
-img {
-  width: 850px;
-  height: 540px;
+.container img {
+  width: 950px;
+  height: 560px;
 }
 span.dot {
   text-align: center;
@@ -104,9 +50,8 @@ span.dot:hover {
 }
 #content {
   position: absolute;
-  margin-top: 565px;
+  margin-top: 585px;
 }
-
 .overallbox-event {
   display: flex;
   justify-content: space-evenly;
@@ -123,7 +68,7 @@ div.box-event1 {
   height: 280px;
   text-align: center;
   transition: 1s;
-  background-image: url(/PICTURE/event1.jpg);
+  background-image: url(/assets/images/event1.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 280px;
@@ -131,7 +76,6 @@ div.box-event1 {
   border-bottom-right-radius: none;
   border-radius: 10px;
 }
-
 div.box-event2 {
   width: 295px;
   border-radius: 20px;
@@ -139,7 +83,7 @@ div.box-event2 {
   height: 280px;
   text-align: center;
   transition: 1s;
-  background-image: url(/PICTURE/event2.jpg);
+  background-image: url(/assets/images/event2.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 280px;
@@ -154,7 +98,7 @@ div.box-event2 {
   height: 280px;
   transition: 1s;
   text-align: center;
-  background-image: url(/PICTURE/event3.png);
+  background-image: url(/assets/images/event3.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 300px 280px;
