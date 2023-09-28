@@ -44,16 +44,12 @@ for (var i = 0; i < EventElements1.length; i++) {
     var currentTransform = this.style.transform;
 
     // Check if the element is currently translated
-    if (currentTransform === "translateX(-265px)") {
-      // If it is, reset the transformation
+    if (currentTransform === "translateX(-160px)") {
       this.style.transform = "none";
       insideEventElements1.style.transform = "none";
       insideEventElements1.style.opacity = "0";
-
-      // Return to the original position
     } else {
-      // If it's not translated, move it to the left
-      this.style.transform = "translateX(-265px)";
+      this.style.transform = "translateX(-160px)";
       insideEventElements1.style.opacity = "1";
       insideEventElements1.style.transform = "translateX(290px)";
     }
@@ -61,7 +57,7 @@ for (var i = 0; i < EventElements1.length; i++) {
 }
 
 var EventElements2 = document.getElementsByClassName("box-event2");
-var insideEventElements2 = document.getElementById("inside-box-event2"); // Use getElementById for single element
+var insideEventElements2 = document.getElementById("inside-box-event2");
 insideEventElements2.style.opacity = "0";
 for (var i = 0; i < EventElements2.length; i++) {
   EventElements2[i].addEventListener("click", function () {
@@ -80,7 +76,7 @@ for (var i = 0; i < EventElements2.length; i++) {
 }
 
 var EventElements3 = document.getElementsByClassName("box-event3");
-var insideEventElements3 = document.getElementById("inside-box-event3"); // Use getElementById for single element
+var insideEventElements3 = document.getElementById("inside-box-event3");
 insideEventElements3.style.opacity = "0";
 for (var i = 0; i < EventElements3.length; i++) {
   EventElements3[i].addEventListener("click", function () {
