@@ -14,14 +14,9 @@
 
 body {
   background: rgb(var(--cool-white));
-  margin-right: auto;
-  margin-left: auto;
-  width: 1024px;
-  height: 768px;
 }
 
 div.container {
-  border: solid black 3px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
