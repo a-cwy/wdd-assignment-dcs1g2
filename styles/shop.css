@@ -221,12 +221,9 @@ header .shopping span {
 
 .itemImageContainer {
   max-width: 10000px;
-  /* Ensure the image fits the container width */
   max-height: 200px;
-  /* Adjust the max height as needed */
   display: block;
-  /* Remove extra space below inline images */
   margin: 0 auto;
-  /* Center the image horizontally within the container */
+
 }
 
