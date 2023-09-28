@@ -14,16 +14,7 @@
 
 .container {
     background: rgb(var(--cool-white));
-    justify-content: center;
-    align-items: center;
-    width: 1024px;
-    height: 768px;
-    margin-left: auto;
-    margin-right: auto;
 }
-
-
-
 
 h1 {
     vertical-align: middle;
@@ -36,7 +27,7 @@ div.container {
     border: 3px solid #221831;
     margin-left: auto;
     margin-right: auto;
-    width: 75%;
+    width: 55%;
     justify-content: center;
     height: 480px;
     margin-top: 70px;
@@ -46,12 +37,12 @@ div.container {
 }
 
 div.box-nameofcard {
-    margin-left: 40px;
+    margin-left: 90px;
     margin-top: 10px;
 }
 
 #nameofcard {
-    width: 480px;
+    width: 450px;
     display: table;
     height: 40px;
     text-indent: 15px;
@@ -62,8 +53,8 @@ div.box-nameofcard {
 
 div.box-cw {
     float: right;
-    margin-top: -78px;
-    margin-right: 45px;
+    margin-top: -72px;
+    margin-right: 100px;
 
 }
 
@@ -77,12 +68,12 @@ div.box-cw {
 
 div.box-cardnumber {
     float: left;
-    margin-left: 40px;
+    margin-left: 90px;
 }
 
 
 #cardnumber {
-    width: 680px;
+    width: 650px;
     height: 40px;
     transition: .5s;
     text-indent: 15px;
@@ -92,7 +83,7 @@ div.box-cardnumber {
 
 div.box-expiry {
     float: left;
-    margin-left: 40px;
+    margin-left: 90px;
     margin-top: 20px;
 }
 
@@ -146,7 +137,7 @@ div.box-button>p {
 }
 
 div.box-button {
-    margin-right: 80px;
+    margin-right: 100px;
     width: 280px;
     height: 80px;
     margin-top: 30px;
@@ -174,7 +165,7 @@ input#pay {
     outline: none;
     margin-left: 140px;
     display: block;
-    margin-right: 60px;
+    margin-right: 100px;
     width: 300px;
     height: 50px;
     text-align: center;
@@ -187,15 +178,14 @@ input#pay {
 
 }
 
-div.box-button button:focus {
-    outline-color: #2EA1DA;
-    outline-style: solid;
-    transition: 0.1s;
-    background-image: url(/assets/images/check.png);
-    background-repeat: no-repeat;
-    background-position: right top;
-    background-size: 10px;
 
+div.box-button input {
+  margin-top: 25px;
+  margin-right: 10px;
+  margin-left: 25px;
+}
+div.box-button img {
+  width: 30px;
 }
 
 input#nameofcard:focus:invalid,
