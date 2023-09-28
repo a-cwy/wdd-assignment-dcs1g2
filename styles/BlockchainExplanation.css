@@ -1,147 +1,97 @@
-*{
-    padding:0%;
-    margin:0%;
-    box-sizing: border-box;
-    font-family:Comic Sans;
-
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+  font-family: Comic Sans;
 }
 
-    :root {
-        --dark-blue: 33, 53, 85;
-        --light-blue: 79, 112, 156;
-        --gold: 229, 210, 131;
-        --cool-white: 240, 240, 240;
-      }
+:root {
+  --dark-blue: 33, 53, 85;
+  --light-blue: 79, 112, 156;
+  --gold: 229, 210, 131;
+  --cool-white: 240, 240, 240;
+}
 
-      body{
-        background:rgb(var(--cool-white));
-        margin-right: auto;
-        margin-left: auto;
-        width:1024px;
-        height: 768px;
-       
-        }
-        
-      
-nav#nav-bar {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    background-color: rgb(var(--dark-blue));
-    height: 80px;
-    padding: 16px;
-    box-sizing: border-box;
-    font-family: sans-serif;
-  }
-  
-  #nav-logo {
-    height: 55px;
-  }
-  
-  nav#nav-bar > img,
-  div.navLinks,
-  div.navLinks > a {
-    display: inline;
-    vertical-align: middle;
-    text-align: center;
-    text-decoration: none;
-  }
-  
-  div.navLinks a {
-    color: rgb(var(--cool-white));
-  }
-  
-  div.navLinks > a {
-    margin: 12px;
-  }
-  
-  div.navButton {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    background-color: rgb(var(--gold));
-    width: 130px;
-    height: 40px;
-    border: solid black 1px;
-    border-radius: 8px;
-  }
-  
-  div.navButton > a {
-    text-decoration: none;
-    color: black;
-  }
-  div.container{
-    border:solid black 3px;
-    margin-top:20px;
-    display: flex;
-    justify-content:center;
-    align-items: center;
-    height: 768px;
-    
-  }
-  h1,h2,h3,h4{
-    
-    margin-left: 10px;
-    line-height: 30px;
-    text-decoration: underline;
-    text-transform: capitalize;
-    font-size: 20px;
-    font-weight:bold;
-    text-shadow: 0px 0px 1px rgb(0, 0, 0);
-    
-  }
-  div.line1 h1{
-    margin-top:10px;
-  }
-  
-  div.line1{
-    
-    justify-content: center;
-    align-items: center;
-    border: black solid 3px;
-    height:100px;
-    width:880px;
-    border-radius:20px;
-    margin-right: auto;
-    margin-left: auto;
-    border-radius: 20px;
-    color:black;
-    background-color:#BFBBAF;
-  }
-    
-.line4{
-  margin-top:20px;
-  display:block;
+body {
+  background: rgb(var(--cool-white));
+  margin-right: auto;
+  margin-left: auto;
+  width: 1024px;
+  height: 768px;
+}
+
+div.container {
+  border: solid black 3px;
+  margin-top: 20px;
+  display: flex;
   justify-content: center;
   align-items: center;
-  border: black solid 3px;
-  width:880px;
-  height:100px;
-  background-color:#BFBBAF ;
-  color:black;
+  height: 768px;
+}
+h1,
+h2,
+h3,
+h4 {
+  margin-left: 10px;
+  line-height: 30px;
+  text-decoration: underline;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: bold;
+  text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+div.line1 h1 {
+  margin-top: 10px;
+}
+
+div.line1 {
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+  width: 900px;
+  border-radius: 20px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  color: black;
+  background-color: #bfbbaf;
+}
+
+.line4 {
+  margin-top: 20px;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 110px;
+  background-color: #bfbbaf;
+  color: black;
   border-radius: 20px;
 }
-span{
-  margin-left:10px;
+span {
+  margin-left: 10px;
 }
-#container-table{
-  margin-top:20px;
+#container-table {
+  margin-top: 20px;
   display: flex;
   justify-content: space-between;
-  width:880px;
+  width: 900px;
+
   align-items: center;
 }
-table th{
+table th {
   text-align: left;
 }
 
-  
-table{
-  border:black solid 3px;
-  height:482px;
-  padding:10px 10px;
+table {
+  height: 482px;
+  padding: 10px 30px;
   border-radius: 20px;
-  background-color:#BFBBAF ;
-  color:black;
+  background-color: #bfbbaf;
+  color: black;
+}
+
+::selection {
+  background-color: aliceblue;
+  color: black;
 }
