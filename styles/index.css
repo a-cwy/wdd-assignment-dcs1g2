@@ -82,6 +82,7 @@ div.whatsNewCard {
 div.whatsNewCard > img {
   position: absolute;
   width: 100%;
+  aspect-ratio: 1 / 1;
 }
 
 div.whatsNewCard > button {
@@ -162,9 +163,7 @@ section#get-started h2 {
 
 section#get-started div.wrapper {
   display: flex;
-  background-image: url("./../assets/images/placeholder.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-color: rgba(0, 0, 0, 0.2);
   width: 100%;
   height: 75%;
 }

@@ -2,7 +2,7 @@
 
 h1 {
   font-size: 50px;
-  font-family: 'Brush Script MT';
+  font-family: "Brush Script MT";
   text-decoration: underline;
 }
 
@@ -43,7 +43,7 @@ header .shopping span {
 .item {
   position: relative;
   background-color: rgb(var(--cool-white));
-  border: solid 1px rgba(0, 0, 0, 0.1) ;
+  border: solid 1px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   box-shadow: 0px 0px 8px 0px rgba(0, 0, 0, 0.2);
 }
@@ -71,7 +71,7 @@ header .shopping span {
 
 .list .item {
   text-align: center;
-  background-color: #DCE0E1;
+  background-color: #dce0e1;
   padding: 20px;
   box-shadow: 0 50px 50px #757676;
   letter-spacing: 1px;
@@ -91,22 +91,17 @@ header .shopping span {
   margin-bottom: 0px;
 }
 
-
-
 .list .item .price {
-  display: inline-;
+  float: left;
+  display: block;
   margin: 16px;
-  line-height: 70px;
-  position: absolute;
-  bottom: 0px;
+  height: 32px;
+  line-height: 32px;
 }
 
 .list .item button {
-  display: inline-block;
+  display: block;
   margin: 16px;
-}
-
-.list .item button {
   height: 32px;
   width: 32px;
   float: right;
@@ -165,7 +160,6 @@ header .shopping span {
   width: 100%;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-
 }
 
 .cart .checkOut div {
@@ -180,7 +174,7 @@ header .shopping span {
 }
 
 .cart .checkOut div:nth-child(2) {
-  background-color: #1C1F25;
+  background-color: #1c1f25;
   color: #fff;
 }
 
@@ -210,8 +204,6 @@ header .shopping span {
   margin: 0 10px;
 }
 
-
-/* Add this CSS to your existing styles */
 .item {
   border: 1px solid #ccc;
   padding: 10px;
@@ -224,6 +216,4 @@ header .shopping span {
   max-height: 200px;
   display: block;
   margin: 0 auto;
-
 }
-
