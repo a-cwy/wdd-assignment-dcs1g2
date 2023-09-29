@@ -1,0 +1,84 @@
+.content {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bitcoin {
+    height: 300px;
+    width: auto;
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+h1.main {
+    font-size: 48px;;
+}
+
+h2 {
+    font-size: 36px;
+    color: rgb(67, 67, 67);
+}
+
+p {
+    font-size: 24px;
+}
+
+.origin, .history, .pricing {
+    padding: 40px 0;
+    border-bottom: 1px solid grey;
+}
+
+.paragraph_box {
+    margin: 20px 0;
+    border: 2px dotted rgb(var(--dark-blue));
+}
+
+.hyperlink {
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+}
+
+.hyperlink:visited {
+    text-decoration: none;
+    color: rgb(67, 67, 67);
+}
+
+.back {
+    border-radius: 4px;
+    background-color: rgb(var(--dark-blue));
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 150px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 30px 0;
+}
+
+.back span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.back span:after {
+    content: '\003C';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -120px;
+    transition: 0.5s;
+}
+
+.back:hover span {
+    padding-right: 25px;
+}
+
+.back:hover span:after {
+    opacity: 1;
+    right: 0;
+}

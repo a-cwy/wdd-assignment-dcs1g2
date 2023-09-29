@@ -6,6 +6,7 @@
 
     <!-- STYLES -->
     <link rel="stylesheet" href="./styles/resets.css" />
+    <link rel="stylesheet" href="./styles/bitcoin.css" />
     <link rel="stylesheet" href="./styles/commons.css" />
     <link rel="stylesheet" href="./styles/navbar.css" />
     <link rel="stylesheet" href="./styles/footer.css" />
@@ -39,66 +40,79 @@
       </div>
     </nav>
 
-    <!--About Bitcoin-->
-    <h1>Bitcoin (BTC)</h1>
-    <!--Origin-->
-    <div>
-      <h2>Origin</h2>
-      <p>
-        The cryptocurrency was invented in 2008 by an unknown entity under the
-        name Satoshi Nakamoto. The currency began use in 2009, when its
-        implementation was released as open-source software. The word "bitcoin"
-        was defined in a white paper published on October 31, 2008. It is a
-        compound of the words bit and coin.
-      </p>
-    </div>
-    <!--History-->
-    <div>
-      <h2>Brief History</h2>
-      <p>
-        <strong>The Birth of Bitcoin(2009) :</strong>
-        On 31 October 2008, a link to a paper authored by Satoshi Nakamoto
-        titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a
-        cryptography mailing list. Nakamoto implemented the bitcoin software as
-        open-source code and released it in January 2009.
-      </p>
-      <p>
-        <strong>Early Days(2009-2012) :</strong>
-        In the beginning, Bitcoin had very little value, and it was mainly used
-        by tech enthusiasts and developers. The first real-world Bitcoin
-        transaction took place in 2010 when a programmer bought two pizzas for
-        10,000 Bitcoins.
-      </p>
+    <div class="content">
+      <img class="bitcoin" src="./assets/images/bitcoin_brief.jpg" alt="bitcoin">
+      <!--About Bitcoin-->
+      <h1 class="main">Bitcoin (BTC)</h1>
+      <!--Origin-->
+      <div class="origin">
+        <h2 class="title">Origin</h2>
+        <br><br>
 
-      <p>
-        <strong>Rise in Popularity(2013-2017) :</strong>
-        Bitcoin's value began to rise, and more people started using it as an
-        investment. In 2017, its price skyrocketed, reaching nearly $20,000 per
-        Bitcoin in December, attracting lots of attention.
-      </p>
+        <p class="text">
+          The cryptocurrency was invented in 2008 by an unknown entity under the
+          name Satoshi Nakamoto. The currency began use in 2009, when its
+          implementation was released as open-source software. The word "bitcoin"
+          was defined in a white paper published on October 31, 2008. It is a
+          compound of the words bit and coin.
+        </p>
+      </div>
+      <!--History-->
+      <div class="history">
+        <h2>Brief History</h2>
+        <br>
 
-      <p>
-        <strong>Bitcoin Today (2021-Now) :</strong>
-        Bitcoin continues to be a popular digital currency and investment. Many
-        big companies and investors are buying and holding Bitcoin. It's seen as
-        a store of value and sometimes called "digital gold."
-      </p>
-    </div>
+        <p class="paragraph_box">
+          <strong>The Birth of Bitcoin(2009) :</strong>
+          <br><br>
+          On 31 October 2008, a link to a paper authored by Satoshi Nakamoto
+          titled Bitcoin: A Peer-to-Peer Electronic Cash System was posted to a
+          cryptography mailing list. Nakamoto implemented the bitcoin software as
+          open-source code and released it in January 2009.
+        </p>
+        <p class="paragraph_box">
+          <strong>Early Days(2009-2012) :</strong>
+          <br><br>
+          In the beginning, Bitcoin had very little value, and it was mainly used
+          by tech enthusiasts and developers. The first real-world Bitcoin
+          transaction took place in 2010 when a programmer bought two pizzas for
+          10,000 Bitcoins.
+        </p>
 
-    <!--Current pricing-->
-    <div>
-      <h2>Current Pricing</h2>
-      <p>
-        You can check the current price of Bitcoin (BTC) by clicking
-        <a
-          href="https://www.google.com/finance/quote/BTC-MYR?sa=X&ved=2ahUKEwjtopS3y8KBAxVYVWwGHadxB7sQ-fUHegQIDhAf"
-          >"Check Bitcoin Price"</a
-        >
-      </p>
-    </div>
-    <a href="crypto.html">
-      <button>Back</button>
-    </a>
+        <p class="paragraph_box">
+          <strong>Rise in Popularity(2013-2017) :</strong>
+          <br><br>
+          Bitcoin's value began to rise, and more people started using it as an
+          investment. In 2017, its price skyrocketed, reaching nearly $20,000 per
+          Bitcoin in December, attracting lots of attention.
+        </p>
+
+        <p class="paragraph_box">
+          <strong>Bitcoin Today (2021-Now) :</strong>
+          <br><br>
+          Bitcoin continues to be a popular digital currency and investment. Many
+          big companies and investors are buying and holding Bitcoin. It's seen as
+          a store of value and sometimes called "digital gold."
+        </p>
+      </div>
+
+      <!--Current pricing-->
+      <div class="pricing">
+        <h2>Current Pricing</h2>
+        <br><br>
+        <p>
+          You can check the current price of Bitcoin (BTC) by clicking
+          <br>
+          <a
+            href="https://www.google.com/finance/quote/BTC-MYR?sa=X&ved=2ahUKEwjtopS3y8KBAxVYVWwGHadxB7sQ-fUHegQIDhAf"
+            class="hyperlink">"Check Bitcoin Price"</a
+          >
+        </p>
+      </div>
+      <a href="crypto.html">
+        <button class="back"><span>Back </span></button>
+      </a>
+  </div>
   </body>
 
   <footer>
