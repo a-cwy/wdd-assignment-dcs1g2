@@ -23,7 +23,7 @@
 
 
 div.container {
-  width: 1024px;
+  width: 800px;
   height: 550px;
   margin-top: 20px;
   display: flex;
@@ -70,7 +70,7 @@ div.box-state-zip {
 }
 
 .content-shipping {
-  width: 1024px;
+  width: 800px;
   height: 550px;
 }
 
