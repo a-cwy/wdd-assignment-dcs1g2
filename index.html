@@ -14,8 +14,16 @@
     <!-- FAVICON -->
     <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
     <title>CryptoPlus</title>
+
+    <!-- SCRIPTS -->
+    <script src="./scripts/autoplayMusic.js"></script>
   </head>
   <body>
+    <audio
+      id="audio-player"
+      src="./assets/audio/the-spectre-alan-walker.mp3"
+      autoplay
+    ></audio>
     <!-- NAV BAR -->
     <nav id="nav-bar" class="snap">
       <a href="./index.html">
@@ -23,11 +31,12 @@
       </a>
       <div class="navLinks">
         <a href="./index.html">Home</a>
-        <a href="#">Cryptocurrencies</a>
-        <a href="#">BlockChain</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./crypto.html">Crypto</a>
+        <a href="./BlockchainExplanation.html">Blockchain</a>
         <a href="./mining.html">Mining</a>
-        <a href="#">Shop</a>
         <a href="./membership.html">Member</a>
+        <a href="./login.html">Login</a>
       </div>
       <div class="navButtonWrapper">
         <a href="./aboutus.html" id="about-us">
@@ -41,46 +50,67 @@
 
     <!-- LANDING SECTION -->
     <section id="welcome">
-      <img src="./assets/images/nature.jpg" alt="Welcome Image" />
+      <video
+        src="./assets/video/vecteezy_stack-of-gold-bitcoins-crypto-currency-4k-3d-rendering_6300330_288.mp4"
+        autoplay
+        loop
+      ></video>
+      <a
+        href="https://www.vecteezy.com/video/6300330-stack-of-gold-bitcoins-crypto-currency-4k-3d-rendering"
+        >Stack of gold bitcoins crypto currency, 4k 3d rendering Stock Videos by
+        Vecteezy</a
+      >
       <h1>Malaysia's Best Crypto Website</h1>
       <button onclick="location.href='./login.html'">Join Us Today</button>
     </section>
 
     <!-- What's New? SECTION -->
     <section id="whats-new" class="snap">
-      <h2>What's New?</h2>
+      <h2 onclick="location.href='./Promotion.html'">What's New?</h2>
 
       <div class="whatsNewCardsContainer">
         <div class="whatsNewCard">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
-          <button>Explore More</button>
+          <img src="./assets/images/event1.jpg" alt="Event" />
+          <button onclick="location.href='./Promotion.html'">
+            Explore More
+          </button>
         </div>
 
         <div class="whatsNewCard">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
-          <button>Explore More</button>
+          <img src="./assets/images/event2.jpg" alt="Event" />
+          <button onclick="location.href='./Promotion.html'">
+            Explore More
+          </button>
         </div>
 
         <div class="whatsNewCard">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
-          <button>Explore More</button>
+          <img src="./assets/images/event3.png" alt="Event" />
+          <button onclick="location.href='./Promotion.html'">
+            Explore More
+          </button>
         </div>
       </div>
 
       <div class="whatsNewCardsContainer">
         <div class="whatsNewCard">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
-          <button>Explore More</button>
+          <img src="./assets/images/promotion.jpg" alt="Promotion" />
+          <button onclick="location.href='./Promotion.html'">
+            Explore More
+          </button>
         </div>
 
         <div class="whatsNewCard">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
-          <button>Explore More</button>
+          <img src="./assets/images/promotion2.jpg" alt="Promotion" />
+          <button onclick="location.href='./Promotion.html'">
+            Explore More
+          </button>
         </div>
 
         <div class="whatsNewCard">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
-          <button>Explore More</button>
+          <img src="./assets/images/promotion3.jpg" alt="Promotion" />
+          <button onclick="location.href='./Promotion.html'">
+            Explore More
+          </button>
         </div>
       </div>
     </section>
@@ -90,17 +120,17 @@
       <h2>Join our community now</h2>
       <div class="wrapper">
         <div class="left">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
+          <img src="./assets/images/promotion4.png" alt="Promotion" />
         </div>
         <div class="right">
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
+          <img
+            src="./assets/images/ckb-miner-k7/product1.png"
+            alt="CKB Miner K7"
+          />
           <br />
-          <img src="./assets/images/placeholder.jpg" alt="Placeholder Text" />
+          <img src="./assets/images/placeholder.jpg" alt="Super Grandma" />
         </div>
       </div>
-
-      <div class="leftArrow">&#129168;</div>
-      <div class="rightArrow">&#129170;</div>
     </section>
 
     <!-- Ready to get started? SECTION -->

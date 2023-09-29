@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/resets.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/mining-rig-item.css" />
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <title>CryptoPlus</title>
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav id="nav-bar">
+      <a href="./index.html">
+        <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
+      </a>
+      <div class="navLinks">
+        <a href="./index.html">Home</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./crypto.html">Crypto</a>
+        <a href="./BlockchainExplanation.html">Blockchain</a>
+        <a href="./mining.html">Mining</a>
+        <a href="./membership.html">Member</a>
+        <a href="./login.html">Login</a>
+      </div>
+      <div class="navButtonWrapper">
+        <a href="./aboutus.html" id="about-us">
+          <div class="navButton">About Us</div>
+        </a>
+        <a href="./contactus.html" id="contact-us">
+          <div class="navButton">Contact Us</div>
+        </a>
+      </div>
+    </nav>
+
+    <!-- MAIN CONTENT AREA -->
+    <!-- ITEM DISPLAY SECTION -->
+    <section class="itemDisplay">
+      <div class="itemImageWindow">
+        <img
+          src="./assets/images/ckb-miner-k7/product1.png"
+          alt="CKB Miner K7"
+        />
+      </div>
+      <div class="itemDetailsContainer">
+        <h2 id="name">CKB Miner K7</h2>
+        <h2 id="price">$2900</h2>
+        <button id="back" onclick="location.href='./shop.html'">Back</button>
+      </div>
+    </section>
+
+    <!-- ITEM SPECS SECTION -->
+    <section class="itemSpecifications">
+      <table>
+        <caption>
+          Product Specifications
+        </caption>
+        <thead>
+          <tr>
+            <th colspan="2">Detailed Specifications</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- POWER SUPPLY INFO -->
+          <tr>
+            <th colspan="2">Power Supply</th>
+          </tr>
+          <tr>
+            <td>AC Input Voltage, Volt</td>
+            <td>200 ~ 240</td>
+          </tr>
+          <tr>
+            <td>AC Input Current, Amp</td>
+            <td>20</td>
+          </tr>
+          <tr>
+            <td>AC Input Frequency, Hz</td>
+            <td>47 ~ 63</td>
+          </tr>
+
+          <!-- HARDWARE CONFIG -->
+          <tr>
+            <th colspan="2">Hardware Configuration</th>
+          </tr>
+          <tr>
+            <td>Networking Mode</td>
+            <td>RJ45 Ethernet 10/100M</td>
+          </tr>
+          <tr>
+            <td>Size, L*W*H, mm</td>
+            <td>430 * 195.5 * 290</td>
+          </tr>
+          <tr>
+            <td>Net Weight, kg</td>
+            <td>16.1</td>
+          </tr>
+
+          <!-- ENVIRONMENT REQ -->
+          <tr>
+            <th colspan="2">Environment Requirements</th>
+          </tr>
+          <tr>
+            <td>Operation Temperature, &deg;C</td>
+            <td>0 ~ 40</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </body>
+  <footer>
+    <div id="socials">
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/instagram.png"
+          alt="Instagram"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/facebook.png"
+          alt="Facebook"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/whatsapp.png"
+          alt="WhatsApp"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/twitter.png"
+          alt="Twitter"
+        />
+      </a>
+    </div>
+    <div id="contact-info">
+      <div class="footerContact">
+        <a href="mailto:support@cryptoplus.com">
+          <img src="./assets/images/gmail.png" alt="Email" />
+          <p>support@cryptoplus.com</p>
+        </a>
+      </div>
+      <div class="footerContact">
+        <a href="tel:+600312345678">
+          <img src="./assets/images/phone.png" alt="Phone" />
+          <p>+60 03-1234 5678</p>
+        </a>
+      </div>
+      <div class="footerContact">
+        <a>
+          <img src="./assets/images/location.png" alt="Address" />
+          <p>101 Jalan Ali, 47120 Puchong, Selangor.</p>
+        </a>
+      </div>
+    </div>
+  </footer>
+</html>

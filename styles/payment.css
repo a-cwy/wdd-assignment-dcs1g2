@@ -1,0 +1,201 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --dark-blue: 33, 53, 85;
+    --light-blue: 79, 112, 156;
+    --gold: 229, 210, 131;
+    --cool-white: 240, 240, 240;
+}
+
+.container {
+    backdrop-filter: blur(10);
+    background-color:#D3D7E7;
+    max-width: 800px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+    border: solid;
+}
+
+h1 {
+    text-align: center;
+    padding: 25px;
+    font-weight: bold;
+    font-size: 34px;
+}
+
+label {
+    font-size: 22px;
+}
+
+.box-nameofcard label,
+.box-cw label,
+.box-cardnumber label,
+.box-expiry label {
+    display: block;
+}
+
+input#nameofcard,
+input#cw,
+input#cardnumber,
+input#expiry {
+    font-size: 20px;
+    padding-left: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+input#nameofcard,
+input#cw {
+    width: 100%;
+}
+
+.box-nameofcard,
+.box-cw,
+.box-cardnumber,
+.box-expiry,
+.box-button {
+    margin-bottom: 40px;
+}
+
+.box-expiry {
+    width: 280px;
+}
+
+#expiry{
+    width: 290px;
+}
+
+.box-expiry,
+.box-button {
+    display: inline-block;
+}
+
+.box-cardnumber,
+.box-cw {
+    display: inline-block;
+}
+
+.box-cw {
+    width: 23%;
+}
+
+.box-cardnumber {
+    margin-right: 100px;
+}
+
+input#pay {
+    outline: none;
+    margin-left: 200px;
+    margin-right: 60px;
+    width: 300px;
+    height: 50px;
+    text-align: center;
+    color: #DFE0E5;
+    background-color: #62698F;
+    border: 2px solid #221831;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+
+div.box-button > p{
+    margin-top:5px;
+    margin-left:5px;
+}
+
+div.box-button {
+    border-radius: 5px;
+    padding-top: 15px;
+    text-align: center;
+    margin-right: 90px;
+    width: 280px;
+    height: 80px;
+    float: right;
+    border: 2px solid #221831;
+    transition: .5s;
+    background-color: white;
+    display: block;
+}
+
+
+.box-button {
+    padding: 3px;
+    margin-left: 10px;
+}
+
+button.visa {
+    width: 50px;
+    margin-top: 6px;
+    background-color: #F7F2EF;
+}
+
+button.paypal {
+    width: 50px;
+    margin-top: 6px;
+    background-color: #F7F2EF;
+}
+
+button.card {
+    width: 50px;
+    margin-top: 6px;
+    background-color: #F7F2EF;
+
+}
+
+
+input#nameofcard:focus:invalid,
+input#cw:focus:invalid,
+input#cardnumber:focus:invalid {
+    background: url(/assets/images/wrong.png)right/contain no-repeat;
+    border: 4px #D1114D solid;
+    transition: 1s;
+}
+
+input#nameofcard:focus:valid,
+input#cw:focus:valid,
+input#cardnumber:focus:valid,
+input#expiry:focus:valid {
+    background: url(/assets/images/correct.png)right/contain no-repeat;
+    border: 4px solid #8CE5A4;
+    transition: 1s;
+}
+
+input#expiry:focus:invalid {
+    background: url(/assets/images/wrong.png)center /contain no-repeat;
+    border: 4px #D1114D solid;
+    transition: 1s;
+
+}
+
+input#expiry:focus:valid {
+    background: url(/assets/images/correct.png)center /contain no-repeat;
+    border: 4px solid #8CE5A4;
+    transition: 1s;
+}
+
+span {
+    text-transform: capitalize;
+    font-weight: bold;
+    padding: 10px 10px;
+
+}
+
+p,
+label {
+    text-transform: capitalize;
+    font-weight: bold;
+
+}

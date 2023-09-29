@@ -1,0 +1,147 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+:root {
+  --dark-blue: 33, 53, 85;
+  --light-blue: 79, 112, 156;
+  --gold: 229, 210, 131;
+  --cool-white: 240, 240, 240;
+}
+
+.container {
+  background: rgb(var(--cool-white));
+  width: 1024px;
+  height: 768px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+
+
+div.container {
+  width: 800px;
+  height: 550px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid black 3px;
+  background-color: #D3D7E7;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+h1 {
+  margin-top: 2px;
+  padding: 8px 0px;
+  background-color: #555A54;
+  text-align: center;
+  width: 1020px;
+  color: white;
+}
+
+input {
+  border: black solid 3px;
+  padding: 5px 10px;
+  width: 200px;
+}
+
+div.box-country-city {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.box-state-zip {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.content-shipping {
+  width: 800px;
+  height: 550px;
+}
+
+.box-address {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+div.box-button-submit {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+#button-submit {
+  width: 400px;
+  height: 50px;
+  text-align: center;
+  font-size: 16px;
+  border-radius: 20px;
+  font-weight: bold;
+  padding: 5px 20px;
+}
+
+#box-country-choice {
+  padding: 0px 40px;
+}
+
+#box-city {
+  padding: 0px 40px;
+}
+
+#box-state {
+  padding: 0px 40px;
+}
+
+#box-zip {
+  padding: 0px 40px;
+}
+
+#zip {
+  height: 40px;
+  width: 200px;
+}
+
+#state {
+  height: 40px;
+  width: 200px;
+}
+
+#city {
+  height: 40px;
+  width: 200px;
+}
+
+#country-choice {
+  height: 40px;
+  width: 200px;
+}
+
+label {
+  font-size: 16px;
+  text-transform: capitalize;
+  word-spacing: 2;
+  font-weight: bold;
+
+}
+
+label img {
+  margin-right: 5px;
+}

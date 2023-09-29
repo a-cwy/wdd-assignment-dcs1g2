@@ -8,6 +8,7 @@ nav#nav-bar {
   padding-left: 48px;
   padding-right: 48px;
   overflow: hidden;
+  box-shadow: 0px 0px 4px 1px rgba(0, 0, 0, 0.3);
 }
 
 #nav-logo {

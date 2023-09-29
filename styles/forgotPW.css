@@ -1,0 +1,76 @@
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+/* Title SECTION STYLES */
+.title{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 30px;
+    justify-content: center;
+    background: transparent;
+    display: flex;
+}
+
+.subtitle{
+    font-size: 18px;
+    margin-bottom: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+/* Sign Up SECTION STYLES*/
+
+.forgot {
+    display: grid;
+    place-items: center;
+    text-align: center;
+    margin: 0 auto;
+    max-width: 95%;
+    margin-top: 100px;
+    margin-bottom: 110px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.6), 0 6px 20px 0 rgba(0, 0, 0, 0.3);
+    width: 450px;
+    height: 400px;
+    padding: 50px;
+    border-radius: 45px;
+    backdrop-filter: blur(20px);
+}
+
+.input {
+    border: 1px solid black;
+    width: 430px;
+    height: 25px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+
+.button {
+    width: 453px;
+    height: 45px;
+    padding: 15px 25px;
+    font-size: 22px;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #3a7aa8;
+    text-align: center;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+  
+.button:hover {background-color: #3a7aa8}
+  
+.button:active {
+    background-color: #3a7aa8;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

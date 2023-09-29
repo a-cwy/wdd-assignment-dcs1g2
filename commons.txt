@@ -14,16 +14,19 @@ PUT CODE BELOW IN <head> TAG
 
 PUT CODE BELOW AT TOP OF <body> TAG
 
+<!-- NAV BAR -->
 <nav id="nav-bar">
   <a href="./index.html">
     <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
   </a>
   <div class="navLinks">
-    <a href="#">Home</a>
-    <a href="#">Cryptocurrencies</a>
-    <a href="#">BlockChain</a>
-    <a href="#">Mining</a>
-    <a href="#">Shop &#9662;</a>
+    <a href="./index.html">Home</a>
+    <a href="./shop.html">Shop</a>
+    <a href="./crypto.html">Crypto</a>
+    <a href="./BlockchainExplanation.html">Blockchain</a>
+    <a href="./mining.html">Mining</a>
+    <a href="./membership.html">Member</a>
+    <a href="./login.html">Login</a>
   </div>
   <div class="navButtonWrapper">
     <a href="./aboutus.html" id="about-us">
@@ -76,3 +79,18 @@ PUT CODE BELOW AFTER <body> TAG
     </div>
   </div>
 </footer>
+
+
+REFERENCE LINK
+
+1. historydraft.com. (n.d.). A Peer-to-Peer Electronic Cash System - Bitcoin - Historydraft. [online] Available at: https://historydraft.com/story/bitcoin/a-peer-to-peer-electronic-cash-system/735/15786/ [Accessed 21 Sep. 2023].
+2. www.chainlinkecosystem.com. (n.d.). Ethereum on Chainlink Ecosystem | Every Chainlink integration and partnership. [online] Available at: https://www.chainlinkecosystem.com/ecosystem/ethereum [Accessed 21 Sep. 2023].
+3. Akintade, T. (2022). Understanding the Ethereum Blockchain. [online] CryptoTvplus - The Leading Blockchain Media Firm. Available at: https://cryptotvplus.com/2022/01/understanding-the-ethereum-blockchain/ [Accessed 21 Sep. 2023].
+4. FactSnippet. (2022). 19 Facts About Ethereum. [online] Available at: https://www.factsnippet.com/site/facts-about-ethereum.html [Accessed 21 Sep. 2023].
+5. Cointelegraph. (n.d.). History of ETH: The rise of the Ethereum blockchain. [online] Available at: https://cointelegraph.com/learn/history-of-ethereum-blockchain#:~:text=The%20DAO%20attracted%20about%20%24150 [Accessed 21 Sep. 2023].
+6. Corporate Finance Institute. (n.d.). Tether. [online] Available at: https://corporatefinanceinstitute.com/resources/cryptocurrency/tether/  [Accessed 22 Sep. 2023].
+7. Kenton, W. (2022). What is Dogecoin? [online] Investopedia. Available at: https://www.investopedia.com/terms/d/dogecoin.asp  [Accessed 22 Sep. 2023].
+8. coinmarketcap.com. (n.d.). Guest Post by BTC Peers: Dogecoin Price History: The Incredible Journey of a Meme Coin | CoinMarketCap. [online] Available at: https://coinmarketcap.com/community/articles/650d6462461218082e8bbf87/ [Accessed 22 Sep. 2023].
+9. IQ.wiki. (n.d.). Dogecoin - Cryptocurrencies. [online] Available at: https://iq.wiki/wiki/dogecoin#:~:text=In%202014%2C%20the%20Dogecoin%20community [Accessed 22 Sep. 2023].
+10. anon (2022). microsoft - Search. [online] www.bing.com. Available at: https://www.bing.com/ck/a? [Accessed 22 Sep. 2023].
+11. Messari.io. (2023). Available at: https://messari.io/project/usd-coin/profile [Accessed 23 Sep. 2023].
