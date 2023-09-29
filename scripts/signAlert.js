@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
             if (returnUrl) {
                 window.location.href = returnUrl;
             } else {
-                window.location.href = "shopping.html"; 
+                window.location.href = "shop.html"; 
             }
         } else {
             alert("Sign-in failed. Please try again.");
