@@ -1,0 +1,176 @@
+div.briefing {
+    margin: 40px;
+    padding: 20px;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    background: linear-gradient(to right, 
+    rgb(6, 1, 157), rgba(6, 1, 157,0.3));
+    opacity: 0.8;
+    color: rgb(var(--cool-white));
+    border-radius: 15px;
+}
+
+div.briefing h1{
+    font-size: 30px;
+    animation: blink-text 2.3s linear infinite;
+}
+
+@keyframes blink-text {
+    0% {
+    opacity: 0;
+    }
+    50% {
+    opacity: 0.8;
+    }
+    100% {
+    opacity: 0;
+    }
+}
+
+.sentence1 {
+    font-size: 18px;
+}
+
+.sentence2 {
+    font-size: 18px;
+    color: rgb(222, 29, 29);
+}
+
+.orderlist {
+    font-size: 18px;
+}
+
+.orderlist p span {
+    color: rgb(1, 0, 23);
+}
+
+.tabbar {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-button {
+    display: inline-block;
+    padding: 15px 0;
+    margin: 15px 10px;
+    background-color: rgb(52, 82, 131);
+    color: #fff;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 200px;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.tab-button:hover {
+    background: rgb(33, 53, 85);
+}
+div.grid-cont{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;    
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content-box .content {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    display: none;
+}
+
+.content-box .active {
+    opacity: 1;
+    display: block;
+}
+
+.card {
+    width: 225px;
+    padding: 40px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    border: 1px solid black;
+}
+.card .title {
+    font-size: 30px;
+    color: rgb(var(--dark-blue));
+    font-weight: 300;
+}
+.card .price {
+    color: rgb(var(--gold));
+    font-weight: 700;
+    font-size: 32px;
+    margin: 10px 0;
+}
+
+.card .oriprice {
+    color: rgb(var(--gold));
+    font-weight: 200;
+    font-size: 15px;
+    margin: 15px 0;
+}
+
+.card strong {
+    text-decoration: line-through;
+}
+
+.card span {
+    font-size: 20px;
+}
+.card .description {
+    color: #3b3b3b;
+    font-size: 16px;
+    padding: 20px 0 10px;
+    border-bottom: 1px dotted rgb(var(--dark-blue));
+}
+.card .offer {
+    display: block;
+    color: #555;
+    font-size: 14px;
+    margin-top: 25px;
+}
+.subscribe-button {
+    display: inline-block;
+    padding: 15px 0;
+    background-color: rgb(229, 210, 131);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    width: 100%;
+    font-weight: 500;
+    transition: 0.2s ease;
+}
+.subscribe-button:hover {
+    background: rgb(216, 183, 50);
+}
+.ribbon-wrap {
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    pointer-events: none;
+}
+.ribbon {
+    width: 230px;
+    font-size: 15px;
+    text-align: center;
+    padding: 8px 0;
+    background: rgb(var(--gold));
+    color: #fff;
+    position: absolute;
+    transform: rotate(-45deg);
+    right: -17px;
+    top: 29%;
+}

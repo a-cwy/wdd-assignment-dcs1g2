@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/resets.css" />
+    <link rel="stylesheet" href="./styles/cloudmining.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+
+    <script src="./scripts/cloudmining.js"></script>
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <title>CryptoPlus - Cloud Mining</title>
+</head>
+
+<body>
+    <!-- NAV BAR -->
+    <nav id="nav-bar">
+        <a href="./index.html">
+            <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
+        </a>
+        <div class="navLinks">
+            <a href="./index.html">Home</a>
+            <a href="./shop.html">Shop</a>
+            <a href="./crypto.html">Crypto</a>
+            <a href="./BlockchainExplanation.html">Blockchain</a>
+            <a href="./mining.html">Mining</a>
+            <a href="./membership.html">Member</a>
+            <a href="./login.html">Login</a>
+        </div>
+        <div class="navButtonWrapper">
+            <a href="./aboutus.html" id="about-us">
+            <div class="navButton">About Us</div>
+            </a>
+            <a href="./contactus.html" id="contact-us">
+            <div class="navButton">Contact Us</div>
+            </a>
+        </div>
+    </nav>
+
+    <!-- Briefing about Cloud Mining -->
+
+    <div class="briefing">
+        <div class="background">
+            <h1>
+                Your selected mining plan will be activated once your payment is confirmed
+            </h1>
+            <br>
+            <p class="sentence1">
+                One of the advantages of our miners is that you can get 
+                your main invest money less than 10 days and double your money in 20 days
+            </p>
+            <br>
+            <p class="sentence2">
+                Don't lose time and active one of the Bitcoin miners today, 
+                keep in remind that our discounts are limited so hurry up.
+            </p>
+            <br>
+            <div class="orderlist">
+                <p><span>1- </span>Choose one of the below miners</p>
+                <p><span>2- </span>Click on "Buy Now" button and pay the miner price</p>
+                <p><span>3- </span>Your miner is launched and adds bitcoin to your balance every second (until 1 year)</p>
+                <p><span>4- </span>Your bitcoin increase every minute and you can withdraw it or buy a new bigger miner</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="tabbar">
+        <button class="tab-button active" onclick="openTab('Bitcoin')">Bitcoin</button>
+        <button class="tab-button" onclick="openTab('Litecoin')">Litecoin</button>
+        <button class="tab-button" onclick="openTab('Dogecoin')">Dogecoin</button>
+    </div>
+    
+    <div class="content-box">
+        <div class="content active" id="Bitcoin">
+            <div class="grid-cont">
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">STARTER</h2>
+                        <h3 class="price">$12<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$12</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer S19j</p>
+                        <p class="description">Daily mining : <br>0.0000185BTC ≈ $0.66 </p>
+                        <p class="description">Monthly mining : <br>0.000559 BTC ≈ $16.77 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/9/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">0% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">BEGINNER</h2>
+                        <h3 class="price">$100<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$100</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer S19j</p>
+                        <p class="description">Daily mining : <br>0.000122 BTC ≈ $3.66 </p>
+                        <p class="description">Monthly mining : <br>0.00366 BTC ≈ $109.8 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/9/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">0% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">BASIC</h2>
+                        <h3 class="price">$320<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$400</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer S19j</p>
+                        <p class="description">Daily mining : <br> 0.00121 BTC ≈ $36.3 </p>
+                        <p class="description">Monthly mining : <br>0.0364 BTC ≈ $1092 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">20% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">ECONOMY</h2>
+                        <h3 class="price">$728<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$1040</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer S19j</p>
+                        <p class="description">Daily mining : <br>0.00336 BTC ≈ $100.8 </p>
+                        <p class="description">Monthly mining : <br> 0.1007 BTC ≈ $3021 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">30% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">STANDART</h2>
+                        <h3 class="price">$2400<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$4000</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer S19j</p>
+                        <p class="description">Daily mining : <br>0.014 BTC ≈ $420 </p>
+                        <p class="description">Monthly mining : <br> 0.42BTC ≈ $12600 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">40% OFF</div>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 15px;">
+                        <h2 class="title">LUXURIOUS</h2>
+                        <h3 class="price">$12600<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$28000</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer S19j</p>
+                        <p class="description">Daily mining : <br>0.13 BTC ≈ $3900</p>
+                        <p class="description">Monthly mining : <br> 3.92 BTC ≈ $117600 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">55% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">SENIOR</h2>
+                        <h3 class="price">$6500<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$13000</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer S19j</p>
+                        <p class="description">Daily mining : <br>0.0616 BTC ≈ $1848</p>
+                        <p class="description">Monthly mining : <br> 1.848 BTC ≈ $55440 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">50% OFF</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="Litecoin">
+            <div class="grid-cont">
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">STARTER</h2>
+                        <h3 class="price">$200<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$222.22</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer L3+</p>
+                        <p class="description">Daily mining : <br> 0.098 LTC ≈ $6.7</p>
+                        <p class="description">Monthly mining : <br> 2.87 LTC ≈ $201 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">10% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">BASIC</h2>
+                        <h3 class="price">$1000<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$1666.67</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer L3+</p>
+                        <p class="description">Daily mining : <br>  0.58 LTC ≈ $ 41</p>
+                        <p class="description">Monthly mining : <br> 17.6 LTC ≈ $1230 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">40% OFF</div>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 15px;">
+                        <h2 class="title">LUXURIOUS</h2>
+                        <h3 class="price">$15000<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$75000</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer L3+</p>
+                        <p class="description">Daily mining : <br> 22.8 LTC ≈ $1620</p>
+                        <p class="description">Monthly mining : <br> 685.7 LTC ≈ $48600 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">80% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">STANDART</h2>
+                        <h3 class="price">$3000<span>/365 Day</span></h3>
+                        <h4 class="oriprice"><strong>$6000</strong>/365 Day</h4>
+                        <p class="description">Hardware: Antminer L3+</p>
+                        <p class="description">Daily mining : <br> 2.97 LTC ≈ $208</p>
+                        <p class="description">Monthly mining : <br> 89.6 LTC ≈ $6240 </p>
+                        <p class="description">Contract duration : 365 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">50% OFF</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="content" id="Dogecoin">
+            <div class="grid-cont">
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">STARTER</h2>
+                        <h3 class="price">$50<span>/3 Day</span></h3>
+                        <h4 class="oriprice"><strong>$50</strong>/3 Day</h4>
+                        <p class="description">3 Day Return : $ 65.12</p>
+                        <p class="description">Daily mining : <br> 50.4 DOGE ( ≈ $ 5.04 )</p>
+                        <p class="description">Planned rate of return : 30.2% </p>
+                        <p class="description">Contract duration : 3 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/9/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">0% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">PRIMARY</h2>
+                        <h3 class="price">$1350<span>/21 Day</span></h3>
+                        <h4 class="oriprice"><strong>$1688</strong>/21 Day</h4>
+                        <p class="description">21 Day Return : $ 2000</p>
+                        <p class="description">Daily mining : <br> 386.8 DOGE ( ≈ $ 38.68 )</p>
+                        <p class="description">Planned rate of return : 148.1% </p>
+                        <p class="description">Contract duration : 21 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">20% OFF</div>
+                        </div>
+                    </div>
+                    <div class="card" style="margin-top: 15px;">
+                        <h2 class="title">ADVANCED</h2>
+                        <h3 class="price">$5600<span>/45 Day</span></h3>
+                        <h4 class="oriprice"><strong>$28000</strong>/45 Day</h4>
+                        <p class="description">45 Day Return : $ 11200</p>
+                        <p class="description">Daily mining : <br> 1244.45 DOGE ( ≈ $ 124.45)</p>
+                        <p class="description">Planned rate of return : 200% </p>
+                        <p class="description">Contract duration : 45 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">80% OFF</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="grid-item">
+                    <div class="card">
+                        <h2 class="title">STANDART</h2>
+                        <h3 class="price">$3200<span>/36 Day</span></h3>
+                        <h4 class="oriprice"><strong>$6400</strong>/36 Day</h4>
+                        <p class="description">36 Day Return : $ 5700</p>
+                        <p class="description">Daily mining : <br> 694.5 DOGE ( ≈ $ 69.45)</p>
+                        <p class="description">Planned rate of return : 178% </p>
+                        <p class="description">Contract duration : 36 days</p>
+                        <b class="offer">Act fast! Offer ends on 20/10/2023</b>
+                        <a class="subscribe-button" href="login.html">Buy Now</a>
+                        <div class="ribbon-wrap">
+                            <div class="ribbon">50% OFF</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<footer>
+    <div id="socials">
+    <a href="#">
+        <img
+        class="footerIcon"
+        src="./assets/images/instagram.png"
+        alt="Instagram"
+        />
+    </a>
+    <a href="#">
+        <img
+        class="footerIcon"
+        src="./assets/images/facebook.png"
+        alt="Facebook"
+        />
+    </a>
+    <a href="#">
+        <img
+        class="footerIcon"
+        src="./assets/images/whatsapp.png"
+        alt="WhatsApp"
+        />
+    </a>
+    <a href="#">
+        <img
+        class="footerIcon"
+        src="./assets/images/twitter.png"
+        alt="Twitter"
+        />
+    </a>
+    </div>
+    <div id="contact-info">
+        <div class="footerContact">
+        <a href="mailto:support@cryptoplus.com">
+            <img src="./assets/images/gmail.png" alt="Email" />
+            <p>support@cryptoplus.com</p>
+        </a>
+        </div>
+        <div class="footerContact">
+        <a href="tel:+600312345678">
+            <img src="./assets/images/phone.png" alt="Phone" />
+            <p>+60 03-1234 5678</p>
+        </a>
+        </div>
+        <div class="footerContact">
+        <a>
+            <img src="./assets/images/location.png" alt="Address" />
+            <p>101 Jalan Ali, 47120 Puchong, Selangor.</p>
+        </a>
+        </div>
+    </div>
+</footer>
+</html>
