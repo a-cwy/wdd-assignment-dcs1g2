@@ -1,5 +1,6 @@
 nav#nav-bar {
   display: flex;
+  position: relative;
   align-items: center;
   background-color: rgb(var(--dark-blue));
   height: 80px;
