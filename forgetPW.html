@@ -1,90 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    
-        <!-- STYLES -->
-        <link rel="stylesheet" href="./styles/resets.css" />
-        <link rel="stylesheet" href="./styles/commons.css" />
-        <link rel="stylesheet" href="./styles/navbar.css" />
-        <link rel="stylesheet" href="./styles/footer.css" />
-        <link rel="stylesheet" href="./styles/index.css" />
-        <link rel="stylesheet" href="./styles/forgotPW.css"> <!-- Add a new css file for Forgot Password-->
-    
-        <!-- FAVICON -->
-        <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
-        <title>CryptoPlus</title>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <script src="signAlert.js"></script> <!-- Add a new css file for signin-->
-    </head>
-    <body>
-        <!-- NAV BAR -->
-        <nav id="nav-bar">
-          <a href="./index.html">
-            <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
-          </a>
-          <div class="navLinks">
-            <a href="#">Home</a>
-            <a href="#">Cryptocurrencies</a>
-            <a href="#">BlockChain</a>
-            <a href="#">Mining</a>
-            <a href="#">Shop &#9662;</a>
-          </div>
-          <a href="./aboutus.html" id="about-us">
-            <div class="navButton">About Us</div>
-          </a>
-          <a href="contactus.html" id="contact-us">
-            <div class="navButton">Contact Us</div>
-          </a>
-        </nav>
-        <div class="forgot">
-          <form action="./login.html" id="forgotForm">
-            <h1 class="title">Reset Your Password</h1>
-            <h2 class="subtitle">Strong passwords include numbers, letters, and punctuation marks.</h2>
-        
-            <input class="input" type="password" placeholder="Enter new Password" required/><br>
-            <input class="input" type="password" placeholder="Confirm new passsword" required/><br>
-        
-            <button type="submit" class="button" >Reset Password</button>
-          </form>
-        </div>
-        
-    </body>
-    <footer>
-      <div id="socials">
-        <a href="#">
-          <img class="footerIcon" src="./assets/images/instagram.png" alt="Instagram" />
+    <!-- STYLES -->
+    <link rel="stylesheet" href="./styles/resets.css" />
+    <link rel="stylesheet" href="./styles/commons.css" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
+    <link rel="stylesheet" href="./styles/index.css" />
+    <link rel="stylesheet" href="./styles/forgotPW.css" />
+    <!-- Add a new css file for Forgot Password-->
+
+    <!-- FAVICON -->
+    <link rel="icon" type="image/x-icon" href="./assets/images/favicon.ico" />
+    <title>CryptoPlus</title>
+
+    <script src="signAlert.js"></script>
+    <!-- Add a new css file for signin-->
+  </head>
+  <body>
+    <!-- NAV BAR -->
+    <nav id="nav-bar">
+      <a href="./index.html">
+        <img src="./assets/images/logo-nobg.png" alt="LOGO" id="nav-logo" />
+      </a>
+      <div class="navLinks">
+        <a href="./index.html">Home</a>
+        <a href="./shop.html">Shop</a>
+        <a href="./crypto.html">Crypto</a>
+        <a href="./BlockchainExplanation.html">Blockchain</a>
+        <a href="./mining.html">Mining</a>
+        <a href="./membership.html">Member</a>
+        <a href="./login.html">Login</a>
+      </div>
+      <div class="navButtonWrapper">
+        <a href="./aboutus.html" id="about-us">
+          <div class="navButton">About Us</div>
         </a>
-        <a href="#">
-          <img class="footerIcon" src="./assets/images/facebook.png" alt="Facebook" />
-        </a>
-        <a href="#">
-          <img class="footerIcon" src="./assets/images/whatsapp.png" alt="WhatsApp" />
-        </a>
-        <a href="#">
-          <img class="footerIcon" src="./assets/images/twitter.png" alt="Twitter" />
+        <a href="./contactus.html" id="contact-us">
+          <div class="navButton">Contact Us</div>
         </a>
       </div>
-      <div id="contact-info">
-        <div class="footerContact">
-          <a href="mailto:support@cryptoplus.com">
-            <img src="./assets/images/gmail.png" alt="Email" />
-            <p>support@cryptoplus.com</p>
-          </a>
-        </div>
-        <div class="footerContact">
-          <a href="tel:+600312345678">
-            <img src="./assets/images/phone.png" alt="Phone" />
-            <p>+60 03-1234 5678</p>
-          </a>
-        </div>
-        <div class="footerContact">
-          <a>
-            <img src="./assets/images/location.png" alt="Address" />
-            <p>101 Jalan Ali, 47120 Puchong, Selangor.</p>
-          </a>
-        </div>
+    </nav>
+
+    <div class="forgot">
+      <form action="./login.html" id="forgotForm">
+        <h1 class="title">Reset Your Password</h1>
+        <h2 class="subtitle">
+          Strong passwords include numbers, letters, and punctuation marks.
+        </h2>
+
+        <input
+          class="input"
+          type="password"
+          placeholder="Enter new Password"
+          required
+        /><br />
+        <input
+          class="input"
+          type="password"
+          placeholder="Confirm new passsword"
+          required
+        /><br />
+
+        <button type="submit" class="button">Reset Password</button>
+      </form>
+    </div>
+  </body>
+  <footer>
+    <div id="socials">
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/instagram.png"
+          alt="Instagram"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/facebook.png"
+          alt="Facebook"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/whatsapp.png"
+          alt="WhatsApp"
+        />
+      </a>
+      <a href="#">
+        <img
+          class="footerIcon"
+          src="./assets/images/twitter.png"
+          alt="Twitter"
+        />
+      </a>
+    </div>
+    <div id="contact-info">
+      <div class="footerContact">
+        <a href="mailto:support@cryptoplus.com">
+          <img src="./assets/images/gmail.png" alt="Email" />
+          <p>support@cryptoplus.com</p>
+        </a>
       </div>
-    </footer>
+      <div class="footerContact">
+        <a href="tel:+600312345678">
+          <img src="./assets/images/phone.png" alt="Phone" />
+          <p>+60 03-1234 5678</p>
+        </a>
+      </div>
+      <div class="footerContact">
+        <a>
+          <img src="./assets/images/location.png" alt="Address" />
+          <p>101 Jalan Ali, 47120 Puchong, Selangor.</p>
+        </a>
+      </div>
+    </div>
+  </footer>
 </html>
